@@ -1,0 +1,443 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Root - HTML*/
+html{
+    font-size: 62.5%;
+}
+
+/* GENERAL */
+body{
+    font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
+    background-color: #2D2D2D;
+}
+
+/* Links */
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Background sections */
+.backgroundSections{
+    background-color: #FFFFFF;
+}
+
+/* Without bold */
+h1 {
+    font-weight: normal;
+}
+
+h2{
+    font-weight: normal;
+}
+
+h3{
+    font-weight: normal;
+}
+
+
+/* HEADER */
+header{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+/* Logo */
+.headerLogo{
+    display: flex;
+    max-width: 6.5rem;
+}
+
+.headerLogoLink{
+    max-width: 100%;
+}
+
+/* Navegation */
+ul{
+    display: flex;
+    flex-flow: wrap;
+    list-style-position: inside;
+    color: #FFFFFF;
+}
+
+li{
+    padding: 2rem;
+    font-size: 1.7rem;
+}
+
+
+
+
+/* FOOTER */
+footer{
+    color: #FFFFFF;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 3rem 5rem;
+    font-size: 2rem;
+}
+
+/* Time */
+.footerTime{
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+
+
+
+/* INDEX */
+.indexSection{
+    color: #FFFFFF;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+}
+
+/* Welcome */
+.indexWelcome{
+    font-size: 7rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+/* GIF */
+.indexWorld{
+    padding: 2rem;
+    mix-blend-mode: multiply;
+    margin: 5rem 0rem;
+}
+
+/* Language */
+.indexLanguage{
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 2.5rem;
+    margin: 5rem 0rem;
+}
+
+.indexLanguageText{
+    padding: 0rem 2rem 0rem 0rem;
+}
+
+.indexSelect{
+    border-style: none;
+    background-color: #D9D9D9;
+    font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+/* Agustín */
+.indexAgustin{
+    display: flex;
+    flex-flow: wrap;
+    font-size: 2rem;
+    margin: 5rem 0rem;
+    text-align: center;
+}
+
+/* Circle container */
+.circleContainer{
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Buttons */
+.buttonText{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    color: #2D2D2D;
+    background: #D9D9D9;
+    font-size: 3.5rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.buttonCircle{
+    margin: 6.5rem 0rem;
+	display: flex;
+    flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+    flex: 1 1 40%;
+}
+
+/* Final texts */
+.indexThanks{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 3rem 0rem;
+}
+
+.indexSee{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    font-size: 3rem;
+    text-align: center;
+    padding: 3rem 0rem;
+    color: #FFFFFF;
+}
+
+
+
+
+/* WORKS */
+/* Texts */
+.worksTexts{
+    width: 80%;
+    margin: auto;
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    padding-top: 8rem;
+}
+
+/* Works container */
+.worksContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto;
+    width: 80%;
+    padding: 2rem;
+}
+
+/* Webs */
+.worksWebs{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin: 3rem auto;
+    align-items: center;
+
+    transition: all 0.5s ease;
+    
+}
+
+/* Links */
+.worksLinks{
+    color: #000000;
+    font-size: 3.5rem;
+}
+
+/* Images */
+.worksImages{
+    width: 16rem;
+    filter: drop-shadow(0.5rem 0.5rem 0.2rem #acacac);
+}
+
+.worksWebs:hover{
+    transform: scale(1.2);
+}
+
+
+/* ABOUT */
+/* Container */
+.aboutContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto;
+    width: 90%;
+    height: 80vh;
+    justify-content: space-around;
+}
+
+/* Texts */
+.aboutTexts{
+    font-size: 2.8rem;
+}
+
+/* Map text */
+.textMap{
+    font-size: 3rem;
+    margin-left: 5rem;
+}
+
+/* Map */
+.aboutMap{
+    width: 100%;
+    margin-bottom: -0.4rem;
+}
+
+
+
+
+
+
+/* CONTACT */
+/* Section container */
+.sectionContact{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.formH{
+    display: none;
+}
+
+/* Form  */
+.formContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: initial;
+    padding-left: 3rem;
+    width: 50%;
+}
+
+/* Divs contact */
+.contactDiv{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 3rem 0rem;
+}
+
+/* Labels */
+.contactLabel{
+    font-size: 3rem;
+    width: 90%;
+    margin: 2rem 0rem;
+}
+
+/* Inputs */
+.inputSmall{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
+    width: 40%;
+    height: 5rem;
+    padding: 1rem;
+}
+
+.inputLarge{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
+    width: 75%;
+    height: 5rem;
+    padding: 1rem;
+}
+
+.inputMessage{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 0.5rem;
+    resize: none;
+    font-size: 1.5rem;
+    width: 40%;
+    height: 15rem;
+    font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
+    padding: 1rem;
+}
+
+/* Button */
+.contactButtonDiv{
+    display: flex;
+    justify-content: end;
+}
+
+.contactButton{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 2.5rem;
+    width: 15%;
+    height: 5rem;
+    margin: 1rem 2rem 2rem 0rem;
+}
+
+.gifContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    margin: auto;
+    padding: 1rem;
+    width: 50%;
+}
+
+.gifCode{
+    width: 100%;
+    opacity: 70%;
+    mix-blend-mode: difference;
+}
+
+
+
+
+/* SOLIDARY */
+/* Texts */
+.solidaryTexts{
+    width: 80%;
+    margin: auto;
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: center;
+    padding: 8rem 0rem;
+}
+
+/* Container */
+.infoContainer{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 10rem;
+}
+
+
+/* Info text */
+.infoText{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    color: #371B58;
+}
+
+/* Info links */
+.infoLink{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background-color: #D9D9D9;
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
+    width: 30rem;
+    height: 6.5rem;
+}
+

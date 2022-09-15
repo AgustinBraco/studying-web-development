@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <title>A|B - Contact</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+
+        <!-- Logo -->
+        <div class="headerLogo">
+            <a href="/index.html"> <img src="/assets/logo-round.png" alt="logo-round" class="headerLogoLink"></a>
+        </div>
+
+        <!-- Navegation -->
+        <nav>
+            <ul>
+                <li> <a href="works.html">Works</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+                <li> <a href="solidary.html">Solidary</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- Section form -->
+        <section class="backgroundSections sectionContact">
+
+            <h2 class="formH">Form</h2>
+
+        <!-- Form -->
+        <form class="formContainer">
+
+            <!-- Name -->
+            <div class="contactDiv">
+                <label for="contact-name" class="contactLabel">What's your name?*</label>
+                <input id="contact-name" type="text" required placeholder="Agustín Braco" autofocus minlength="3" maxlength="30" class="inputSmall">
+            </div>
+
+            <!-- Email -->
+            <div class="contactDiv">
+                <label for="contact-email" class="contactLabel">What's your email?*</label>
+                <input id="contact-email" type="email" required placeholder="Bracoagustin@gmail.com" maxlength="30" class="inputSmall">
+            </div>
+
+            <!-- Organization -->
+            <div class="contactDiv">
+                <label for="contact-organization" class="contactLabel">What's the name of your organization?*</label>
+                <input id="contact-organization" type="text" required placeholder="Nación Geek" minlength="3" maxlength="30" class="inputLarge">
+            </div>
+
+            <!-- Services -->
+            <div class="contactDiv">
+                <label for="contact-services" class="contactLabel">What services are you looking for?*</label>
+                <input id="contact-services" type="text" required placeholder="Web development - Web design - Backend - Frontend" minlength="3" maxlength="30" class="inputLarge"> 
+            </div>
+
+            <!-- Message -->
+            <div class="contactDiv">
+				<label for="contact-message" class="contactLabel">Leave me a message:
+				    </label>
+                <textarea class="inputMessage" id="contact-message"></textarea>
+            </div>
+
+            <!-- Button -->
+            <div class="contactButtonDiv">
+                <button class="contactButton">Send</button>
+            </div>
+        </form>
+
+        <!-- Gif code -->
+        <div class="gifContainer">
+            <img src="/assets/gif-code.gif" alt="gif-code" class="gifCode">
+        </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        
+        <!-- Copyright -->
+        <div>
+            <p>&#169 Copyright</p>
+        </div>
+
+        <!-- Time -->
+        <div class="footerTime">
+            <p>Local time</p>
+            <p>16:31</p>
+        </div>
+
+        <!-- Link header -->
+        <div>
+            <a href="#header">¡Go up!</a>
+        </div> 
+
+    </footer>
+
+</body>
+
+</html>
