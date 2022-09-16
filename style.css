@@ -75,6 +75,9 @@ li{
     font-size: 1.7rem;
 }
 
+.menuMobile{
+    /* display: none; */
+}
 
 
 
@@ -269,7 +272,7 @@ footer{
     flex-flow: column nowrap;
     margin: auto;
     width: 90%;
-    height: 80vh;
+    height: 110vh;
     justify-content: space-around;
 }
 
@@ -281,6 +284,7 @@ footer{
 /* Map text */
 .textMap{
     font-size: 3rem;
+    margin-top: -1rem;
     margin-left: 5rem;
 }
 
@@ -306,6 +310,7 @@ footer{
 .formContainer{
     width: 100%;
     padding-left: 3rem;
+
 }
 
 /* Divs contact */
@@ -416,7 +421,7 @@ footer{
     flex-flow: row wrap;
     width: 80%;
     justify-content: space-around;
-    margin: auto;
+    margin: -0.1rem auto;
     padding-bottom: 10rem;
 }
 
@@ -442,9 +447,158 @@ footer{
     height: 6.5rem;
 }
 
+
+
+/* RESPONSIVE */
+
+/* Hit points */
+/* 1351px */
 @media only screen and (max-width:1350px) {
     .contactContainer{
         display: flex;
         flex-flow: column nowrap;
     }
+
+}
+
+/* 700px */
+@media only screen and (max-width:700px) {
+    .circleContainer{
+        display: flex;
+        flex-flow: column wrap;
+        width: 60%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutContainer{
+        display: flex;
+        flex-flow: column nowrap;
+        margin: auto;
+        width: 90%;
+        height: 130vh;
+        justify-content: space-around;
+    }
+
+    h1{
+        font-size: 7rem;
+    }
+
+    .indexLanguageText{
+        font-size: 2rem;
+    }
+
+    .indexSelect{
+        font-size: 1.6rem;
+    }
+
+    .indexAgustin{
+        font-size: 1.6rem;
+    }
+
+    .indexThanks{
+        font-size: 2rem;
+    }
+
+    .indexSee{
+        font-size: 2.5rem;
+    }
+
+    footer{
+        padding: 1rem;
+    }
+
+    .worksLinks{
+        text-align: center;
+    }
+
+    .worksTexts{
+        font-size: 2.5rem;
+    }
+
+    .solidaryTexts{
+        font-size: 2.5rem;
+    }
+
+}
+
+
+
+/* TABLET 960px */
+@media only screen and (max-width:960px) {
+    /* Works */
+    .worksWebs{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        width: 60%;
+        margin: 5rem auto;
+        align-items: center;
+    }
+
+    /* Solidary */
+    .infoContainer{
+        display: flex;
+        flex-flow: column wrap;
+        width: 80%;
+        align-items: center;
+        text-align: center;
+        margin: -0.1rem auto;
+    }
+
+    .infoDiv{
+        padding: 5rem;
+    }
+
+}
+
+
+
+/* MOBILE 390 */
+@media only screen and (max-width:390px) {
+    .worksTexts{
+        font-size: 2rem;
+    }
+
+    .solidaryTexts{
+        font-size: 2rem;
+    }
+
+    .indexLanguageText{
+        font-size: 1.7rem;
+    }
+
+    .indexSelect{
+        font-size: 1.5rem;
+    }
+
+    .indexAgustin{
+        font-size: 1.4rem;
+    }
+
+    .indexThanks{
+        font-size: 1.4rem;
+    }
+
+    .indexSee{
+        font-size: 2rem;
+    }
+
+    footer{
+        padding: 1rem;
+    }
+
+    .worksLinks{
+        text-align: center;
+    }
+
+    .worksTexts{
+        font-size: 2.5rem;
+    }
+
+    .solidaryTexts{
+        font-size: 2.5rem;
+    }
+
 }
