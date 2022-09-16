@@ -75,12 +75,6 @@ li{
     font-size: 1.7rem;
 }
 
-.menuMobile{
-    /* display: none; */
-}
-
-
-
 /* FOOTER */
 footer{
     color: #FFFFFF;
@@ -388,7 +382,7 @@ footer{
     border: none;
     border-radius: 0.5rem;
     font-size: 2.5rem;
-    width: 15%;
+    width: 15rem;
     height: 5rem;
     margin: 1rem 2rem 2rem 0rem;
 }
@@ -419,12 +413,10 @@ footer{
 .infoContainer{
     display: flex;
     flex-flow: row wrap;
-    width: 80%;
     justify-content: space-around;
-    margin: -0.1rem auto;
+    margin: auto;
     padding-bottom: 10rem;
 }
-
 
 /* Info text */
 .infoText{
@@ -450,123 +442,22 @@ footer{
 
 
 /* RESPONSIVE */
-
-/* Hit points */
-/* 1351px */
-@media only screen and (max-width:1350px) {
-    .contactContainer{
-        display: flex;
-        flex-flow: column nowrap;
-    }
-
-}
-
-/* 700px */
-@media only screen and (max-width:700px) {
-    .circleContainer{
-        display: flex;
-        flex-flow: column wrap;
-        width: 60%;
-        margin: auto;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .aboutContainer{
-        display: flex;
-        flex-flow: column nowrap;
-        margin: auto;
-        width: 90%;
-        height: 130vh;
-        justify-content: space-around;
-    }
-
+/* MOBILE */
+@media only screen and (max-width:450px) {
+    /* Index */
     h1{
-        font-size: 7rem;
+        font-size: 6rem;
+    }
+
+    ul{
+        display: flex;
+        flex-flow: column;
+        list-style-position: inside;
+        color: #FFFFFF;
     }
 
     .indexLanguageText{
-        font-size: 2rem;
-    }
-
-    .indexSelect{
-        font-size: 1.6rem;
-    }
-
-    .indexAgustin{
-        font-size: 1.6rem;
-    }
-
-    .indexThanks{
-        font-size: 2rem;
-    }
-
-    .indexSee{
-        font-size: 2.5rem;
-    }
-
-    footer{
-        padding: 1rem;
-    }
-
-    .worksLinks{
-        text-align: center;
-    }
-
-    .worksTexts{
-        font-size: 2.5rem;
-    }
-
-    .solidaryTexts{
-        font-size: 2.5rem;
-    }
-
-}
-
-
-
-/* TABLET 960px */
-@media only screen and (max-width:960px) {
-    /* Works */
-    .worksWebs{
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        width: 60%;
-        margin: 5rem auto;
-        align-items: center;
-    }
-
-    /* Solidary */
-    .infoContainer{
-        display: flex;
-        flex-flow: column wrap;
-        width: 80%;
-        align-items: center;
-        text-align: center;
-        margin: -0.1rem auto;
-    }
-
-    .infoDiv{
-        padding: 5rem;
-    }
-
-}
-
-
-
-/* MOBILE 390 */
-@media only screen and (max-width:390px) {
-    .worksTexts{
-        font-size: 2rem;
-    }
-
-    .solidaryTexts{
-        font-size: 2rem;
-    }
-
-    .indexLanguageText{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     .indexSelect{
@@ -574,31 +465,215 @@ footer{
     }
 
     .indexAgustin{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     .indexThanks{
-        font-size: 1.4rem;
-    }
-
-    .indexSee{
         font-size: 2rem;
     }
 
-    footer{
-        padding: 1rem;
+    .indexSee{
+        font-size: 2.5rem;
     }
 
-    .worksLinks{
+    footer{
+        width: 100%;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* Works */
+    .worksTexts{
+        font-size: 2.1rem;
+    }
+
+    .worksWebs{
         text-align: center;
     }
 
+    /* About */
+    .aboutTexts{
+        font-size: 2.3rem;
+    }
+
+    /* Solidary */
+    .solidaryTexts{
+        font-size: 1.8rem;
+    }
+
+    .infoDiv{
+        padding: 5rem;
+        text-align: center;
+
+    }
+
+
+    /* Contact */
+    .contactLabelSmall{
+        font-size: 2.5rem;
+        width: 35rem;
+        padding: 1rem 0rem;
+    }
+
+    .contactLabelLarge{
+        font-size: 2.5rem;
+        width: 35rem;
+        padding: 1rem 0rem;
+    }
+
+    .contactLabelMessage{
+        font-size: 2.5rem;
+        width: 35rem;
+    }
+
+    .inputSmall{
+        font-size: 1.5rem;
+        width: 35rem;
+        height: 5rem;
+    }
+
+    .inputLarge{
+        width: 35rem;
+        height: 5rem;
+    }
+
+    .gifContainer{
+        display: none;
+    }
+}
+
+/* 700px */
+@media only screen and (max-width:700px) and (min-width:451px) {
+    /* Index */
+    h1{
+        font-size: 7.5rem;
+    }
+
+    ul{
+        display: flex;
+        flex-flow: column;
+        list-style-position: inside;
+        color: #FFFFFF;
+    }
+
+    .indexLanguageText{
+        font-size: 2.5rem;
+    }
+
+    .indexSelect{
+        font-size: 2.5rem;
+    }
+
+    .indexAgustin{
+        font-size: 2rem;
+    }
+
+    .circleContainer{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .indexThanks{
+        font-size: 2.5rem;
+    }
+
+    .indexSee{
+        font-size: 3rem;
+    }
+
+    footer{
+        width: 100%;
+        font-size: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* Works */
     .worksTexts{
         font-size: 2.5rem;
     }
 
+    .worksWebs{
+        text-align: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    /* Solidary */
     .solidaryTexts{
+        font-size: 2rem;
+    }
+
+    .infoDiv{
+        padding: 5rem;
+        text-align: center;
+    }
+
+
+    /* Contact */
+    .contactLabelSmall{
+        font-size: 2.5rem;
+        width: 40rem;
+        padding: 1rem 0rem;
+    }
+
+    .contactLabelLarge{
+        font-size: 2.5rem;
+        width: 40rem;
+        padding: 1rem 0rem;
+    }
+
+    .contactLabelMessage{
+        font-size: 2.5rem;
+        width: 40rem;
+    }
+
+    .inputSmall{
+        font-size: 1.5rem;
+        width: 40rem;
+        height: 5rem;
+    }
+
+    .inputLarge{
+        width: 40rem;
+        height: 5rem;
+    }
+
+    .inputMessage{
+        width: 40rem;
+        height: 15rem;
+    }
+
+    .gifContainer{
+        display: none;
+    }
+}
+
+/* 1300px */
+@media only screen and (max-width:1400px) and (min-width:701px) {
+    .worksTexts{
         font-size: 2.5rem;
     }
 
+    .worksWebs{
+        display: flex;
+        flex-flow: column wrap;
+        text-align: center;
+        justify-content: center;
+        padding: 3rem;
+    }
+
+    .gifContainer{
+        display: none;
+    }
+
+    .solidaryTexts{
+        font-size: 2.2rem;
+    }
+
+    .infoDiv{
+        padding: 5rem;
+        text-align: center;
+    }
 }
