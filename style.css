@@ -297,36 +297,41 @@ footer{
 
 /* CONTACT */
 /* Section container */
-.sectionContact{
+.contactContainer{
     display: flex;
-    flex-flow: row wrap;
-}
-
-.formH{
-    display: none;
+    flex-flow: row nowrap;
 }
 
 /* Form  */
 .formContainer{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: initial;
+    width: 100%;
     padding-left: 3rem;
-    width: 50%;
 }
 
 /* Divs contact */
 .contactDiv{
     display: flex;
     flex-flow: column nowrap;
-    margin: 3rem 0rem;
+    padding: 3rem 0rem;
 }
 
 /* Labels */
-.contactLabel{
+.contactLabelSmall{
     font-size: 3rem;
-    width: 90%;
-    margin: 2rem 0rem;
+    width: 35rem;
+    padding: 1rem 0rem;
+}
+
+.contactLabelLarge{
+    font-size: 3rem;
+    width: 65rem;
+    padding: 1rem 0rem;
+}
+
+.contactLabelMessage{
+    font-size: 3rem;
+    width: 35rem;
+    padding: 1rem 0rem;
 }
 
 /* Inputs */
@@ -336,9 +341,10 @@ footer{
     border-radius: 0.5rem;
     font-size: 1.5rem;
     font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
-    width: 40%;
+    width: 35rem;
     height: 5rem;
     padding: 1rem;
+    margin: 1rem 0rem;
 }
 
 .inputLarge{
@@ -347,9 +353,10 @@ footer{
     border-radius: 0.5rem;
     font-size: 1.5rem;
     font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
-    width: 75%;
+    width: 65rem;
     height: 5rem;
     padding: 1rem;
+    margin: 1rem 0rem;
 }
 
 .inputMessage{
@@ -358,10 +365,11 @@ footer{
     border-radius: 0.5rem;
     resize: none;
     font-size: 1.5rem;
-    width: 40%;
+    width: 35rem;
     height: 15rem;
     font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
     padding: 1rem;
+    margin: 1rem 0rem;
 }
 
 /* Button */
@@ -381,16 +389,9 @@ footer{
 }
 
 .gifContainer{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: end;
-    margin: auto;
-    padding: 1rem;
-    width: 50%;
-}
-
-.gifCode{
+    background-image: url(./assets/gif-code.gif);
     width: 100%;
+    background-size: cover;
     opacity: 70%;
     mix-blend-mode: difference;
 }
@@ -441,3 +442,9 @@ footer{
     height: 6.5rem;
 }
 
+@media only screen and (max-width:1350px) {
+    .contactContainer{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+}

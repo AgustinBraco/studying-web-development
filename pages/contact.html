@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="../style.css">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
     <title>A|B - Contact</title>
 </head>
 
@@ -18,7 +18,7 @@
 
         <!-- Logo -->
         <div class="headerLogo">
-            <a href="/index.html"> <img src="/assets/logo-round.png" alt="logo-round" class="headerLogoLink"></a>
+            <a href="../index.html"> <img src="../assets/logo-round.png" alt="logo-round" class="headerLogoLink"></a>
         </div>
 
         <!-- Navegation -->
@@ -34,60 +34,56 @@
     </header>
 
     <!-- MAIN -->
-    <main>
+    <main class="backgroundSections">
 
-        <!-- Section form -->
-        <section class="backgroundSections sectionContact">
+        <div class="contactContainer">
 
-            <h2 class="formH">Form</h2>
-
-            <div class="formContainer">
             <!-- Form -->
-            <form>
+            <div class="formContainer">
+                <form>
 
-            <!-- Name -->
-            <div class="contactDiv">
-                <label for="contact-name" class="contactLabel">What's your name?*</label>
-                <input id="contact-name" type="text" required placeholder="Agustín Braco" autofocus minlength="3" maxlength="30" class="inputSmall">
-            </div>
+                <!-- Name -->
+                <div class="contactDiv">
+                    <label for="contact-name" class="contactLabelSmall">What's your name?</label>
+                    <input id="contact-name" type="text" required placeholder="Agustín Braco*" autofocus minlength="3" maxlength="30" class="inputSmall">
+                </div>
 
-            <!-- Email -->
-            <div class="contactDiv">
-                <label for="contact-email" class="contactLabel">What's your email?*</label>
-                <input id="contact-email" type="email" required placeholder="Bracoagustin@gmail.com" maxlength="30" class="inputSmall">
-            </div>
+                <!-- Email -->
+                <div class="contactDiv">
+                    <label for="contact-email" class="contactLabelSmall">What's your email?</label>
+                    <input id="contact-email" type="email" required placeholder="Bracoagustin@gmail.com*" maxlength="30" class="inputSmall">
+                </div>
 
-            <!-- Organization -->
-            <div class="contactDiv">
-                <label for="contact-organization" class="contactLabel">What's the name of your organization?*</label>
-                <input id="contact-organization" type="text" required placeholder="Nación Geek" minlength="3" maxlength="30" class="inputLarge">
-            </div>
+                <!-- Organization -->
+                <div class="contactDiv">
+                    <label for="contact-organization" class="contactLabelLarge">What's the name of your organization?</label>
+                    <input id="contact-organization" type="text" required placeholder="Nación Geek*" minlength="3" maxlength="30" class="inputLarge">
+                </div>
 
-            <!-- Services -->
-            <div class="contactDiv">
-                <label for="contact-services" class="contactLabel">What services are you looking for?*</label>
-                <input id="contact-services" type="text" required placeholder="Web development - Web design - Backend - Frontend" minlength="3" maxlength="30" class="inputLarge"> 
-            </div>
+                <!-- Services -->
+                <div class="contactDiv">
+                    <label for="contact-services" class="contactLabelLarge">What services are you looking for?</label>
+                    <input id="contact-services" type="text" required placeholder="Web development - Web design - Backend - Frontend*" minlength="3" maxlength="30" class="inputLarge"> 
+                </div>
 
-            <!-- Message -->
-            <div class="contactDiv">
-				<label for="contact-message" class="contactLabel">Leave me a message:</label>
-                <textarea class="inputMessage" id="contact-message"></textarea>
-            </div>
+                <!-- Message -->
+                <div class="contactDiv">
+				    <label for="contact-message" class="contactLabelMessage">Leave me a message:</label>
+                    <textarea class="inputMessage" id="contact-message"></textarea>
+                </div>
 
-            <!-- Button -->
-            <div class="contactButtonDiv">
-                <button class="contactButton">Send</button>
-            </div>
-            </form>
+                <!-- Button -->
+                <div class="contactButtonDiv">
+                    <button class="contactButton">Send</button>
+                </div>
+
+                </form>
             </div>
 
             <!-- Gif code -->
-            <div class="gifContainer">
-                <img src="/assets/gif-code.gif" alt="gif-code" class="gifCode">
-            </div>
+            <div class="gifContainer"></div>
 
-        </section>
+        </div>
 
     </main>
 
