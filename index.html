@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./style.css">
     <!-- CDN Animated -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- CDN AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <title>A|B - Home</title>
@@ -76,32 +78,34 @@
             <div class="circleContainer">
 
                 <!-- Works button -->
-                <div class="buttonCircle">
+                <div class="buttonCircle" data-aos="fade-right" data-aos="fade-right" data-aos-delay="200" data-aos-duration="600">
                     <a href="./pages/works.html" class="buttonText">Works</a>
                 </div>
                 
                 <!-- About button -->
-                <div class="buttonCircle">
+                <div class="buttonCircle" data-aos="fade-left" data-aos="fade-right" data-aos-delay="200" data-aos-duration="600">
                     <a href="./pages/about.html" class="buttonText">About</a>
                 </div>
                 
                 <!-- Contact button -->
-                <div class="buttonCircle">
+                <div class="buttonCircle" data-aos="fade-right" data-aos="fade-right" data-aos-delay="200" data-aos-duration="600">
                     <a href="./pages/contact.html" class="buttonText">Contact</a>
                 </div>
                 
                 <!-- Solidary button -->
-                <div class="buttonCircle">
+                <div class="buttonCircle" data-aos="fade-left" data-aos="fade-right" data-aos-delay="200" data-aos-duration="600">
                     <a href="./pages/solidary.html" class="buttonText">Solidary</a>
                 </div>
 
             </div>
             
-            <div class="indexThanks">
+            <div class="indexThanks" data-aos="fade-up"
+            data-aos-duration="800">
                 <h3>Thanks for stopping by here</h3>
             </div>
 
-            <div class="indexSee">
+            <div class="indexSee" data-aos="fade-up"
+            data-aos-duration="800">
                 <h3>¡See you later!</h3>
             </div>
 
@@ -131,5 +135,10 @@
     </footer>
 
 </body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>
