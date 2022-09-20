@@ -759,3 +759,11 @@ footer{
         text-align: center;
     }
 }
+
+.example{
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+    border-radius: 50%;
+    border: #f9d5ff solid 2px;
+}
