@@ -32,22 +32,16 @@ html {
     text-decoration: none;
 }
 
-/* Max images */
-/* SACAR POST */
-img{
-    max-width: 12rem;
-}
-
 /* HEADER INDEX */
 /* Navbar */
 .logoIndex {
-    width: 2.5rem;
+    width: 3.5rem;
 }
 
 .navDiv {
     display: flex;
     justify-content: end;
-    margin: 2rem 2rem;
+    margin: 3rem;
 }
 
 .navLink {
@@ -64,7 +58,7 @@ img{
 
 /* Texts */
 .textWelcome {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 /* Gifs */
@@ -76,12 +70,12 @@ img{
 }
 
 .gifLocation {
-    max-width: 2rem;
+    max-width: 4rem;
     margin-right: 0.5rem;
 }
 
 .gifDeveloper {
-    max-width: 2rem;
+    max-width: 4rem;
     margin-left: 1rem;
 }
 
@@ -90,16 +84,17 @@ img{
     flex-flow: row nowrap;
     align-items: center;
     margin: 0rem 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .gifWorld {
     mix-blend-mode: multiply;
+    width: 20rem;
 }
 
 /* Divs Header Index */
 .divIndex {
-    padding: 2rem 0rem;
+    padding: 4rem 0rem;
 }
 
 /* Text & Select */
@@ -113,17 +108,19 @@ option {
 
 .textLanguage {
     padding-right: 2rem;
+    font-size: 2rem;
 }
 
 .selectIndex {
     background-color: #F0EBE3;
     color: #576F72;
     border-radius: 0.6rem;
-    height: 2.5rem;
-    width: 7rem;
+    height: 3rem;
+    width: 10rem;
     text-align: center;
     outline: none;
     border: none;
+    font-size: 1.5rem;
 }
 
 
