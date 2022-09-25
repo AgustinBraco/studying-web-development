@@ -4,109 +4,162 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="../style.css">
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+
     <title>A|B - Contact</title>
 </head>
 
 <body>
 
-    <!-- HEADER -->
-    <header id="header">
+    <header>
 
-        <!-- Logo -->
-        <div class="headerLogo">
-            <a href="../index.html"> <img src="../assets/logo-round.png" alt="logo-round" class="headerLogoLink"></a>
-        </div>
-
-        <!-- Navegation -->
-        <nav>
-            <ul>
-                <li> <a href="./works.html">Works</a></li>
-                <li> <a href="./about.html">About</a></li>
-                <li> <a href="./contact.html" class="selectedSection">Contact</a></li>
-                <li> <a href="./solidary.html">Solidary</a></li>
-            </ul>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/logo-round.png" alt="Logo round"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="./works.html">Works</a>
+                        <a class="nav-link" href="./about.html">About</a>
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                        <a class="nav-link" href="./solidary.html">Solidary</a>
+                    </div>
+                </div>
+            </div>
         </nav>
+
+        <!-- Text -->
+        <div>
+            <h2>Lets get in touch</h2>
+        </div>
 
     </header>
 
-    <!-- MAIN -->
-    <main class="backgroundSections">
+    <main>
 
-        <div class="contactContainer">
+        <section>
 
-            <!-- Form -->
-            <div class="formContainer">
-                <form>
+            <!-- Form container -->
+            <div>
+                <form action="contact-form">
 
                 <!-- Name -->
-                <div class="contactDiv">
-                    <label for="contact-name" class="contactLabelSmall">What's your name?</label>
-                    <input id="contact-name" type="text" required placeholder="Agustín Braco*" autofocus minlength="3" maxlength="30" class="inputSmall">
+                <div>
+                    <label for="contact-name">What's your name?</label>
+                    <input id="contact-name" type="text" required placeholder="Agustín Braco*" autofocus minlength="3" maxlength="30" name="name">
                 </div>
 
                 <!-- Email -->
-                <div class="contactDiv">
-                    <label for="contact-email" class="contactLabelSmall">What's your email?</label>
-                    <input id="contact-email" type="email" required placeholder="Bracoagustin@gmail.com*" maxlength="30" class="inputSmall">
+                <div>
+                    <label for="contact-email">What's your email?</label>
+                    <input id="contact-email" type="email" required placeholder="Bracoagustin@gmail.com*" maxlength="30" name="email">
                 </div>
 
                 <!-- Organization -->
-                <div class="contactDiv">
-                    <label for="contact-organization" class="contactLabelLarge">What's the name of your organization?</label>
-                    <input id="contact-organization" type="text" required placeholder="Nación Geek*" minlength="3" maxlength="30" class="inputLarge">
+                <div>
+                    <label for="contact-organization">What's the name of your organization?</label>
+                    <input id="contact-organization" type="text" required placeholder="Nación Geek*" minlength="3" maxlength="30" name="organization">
                 </div>
 
                 <!-- Services -->
-                <div class="contactDiv">
-                    <label for="contact-services" class="contactLabelLarge">What services are you looking for?</label>
-                    <input id="contact-services" type="text" required placeholder="Web development - Web design - Backend - Frontend*" minlength="3" maxlength="30" class="inputLarge"> 
+                <div>
+                    <label for="contact-services">What services are you looking for?</label>
+                    <input id="contact-services" type="text" required placeholder="Web development - Web design - Backend*" minlength="3" maxlength="30" name="services"> 
                 </div>
 
                 <!-- Message -->
-                <div class="contactDiv">
-				    <label for="contact-message" class="contactLabelMessage">Leave me a message:</label>
-                    <textarea class="inputMessage" id="contact-message"></textarea>
+                <div>
+				    <label for="contact-message">Leave me a message:</label>
+                    <textarea id="contact-message" name="message"></textarea>
                 </div>
 
                 <!-- Button -->
-                <div class="contactButtonDiv">
-                    <button class="contactButton">Send</button>
+                <div>
+                    <button>Send</button>
                 </div>
 
                 </form>
             </div>
 
-            <!-- Gif code -->
-            <div class="gifContainer"></div>
+            <!-- GIF container -->
+            <div>
+                <img src="../assets/code-gif.gif" alt="Gif code">
+            </div>
+        </section>
 
-        </div>
+        <!-- Pre-footer -->
+        <section>
+
+            <!-- Round end -->
+            <div></div>
+        
+        </section>
 
     </main>
 
-    <!-- FOOTER -->
     <footer>
-        
-        <!-- Copyright -->
+
+        <!-- Photo and name -->
         <div>
-            <p>&#169 Copyright</p>
+            <img src="../assets/me-round.png" alt="My photo">
+            <div>
+                <p>Agustín Braco</p>
+                <p>Full Stack web developer</p>
+            </div>
         </div>
 
-        <!-- Time -->
-        <div class="footerTime">
-            <p>Local time</p>
-            <p>16:31</p>
+        <!-- Contact circle -->
+        <div>
+            <a href="../index.html">Home</a>
         </div>
 
-        <!-- Link header -->
-        <div class="footerUp">
-            <a href="#header" class="footerUpLink">¡Go up!</a>
-        </div> 
+        <!-- Solidary circle -->
+        <div>
+            <a href="./solidary.html">Solidary</a>
+        </div>
+
+        <!-- Bottom -->
+        <div>
+
+            <p>Copyright</p>
+
+            <div>
+                <p>Time</p>
+                <p>16:11</p>
+            </div>
+
+            <a href="#">¡Go up!</a>
+        </div>
 
     </footer>
+
+    <!-- Scipt Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

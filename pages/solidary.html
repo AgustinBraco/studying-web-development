@@ -4,96 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="../style.css">
-    <!-- CDN Animated -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+
     <title>A|B - Solidary</title>
 </head>
 
 <body>
 
-    <!-- HEADER -->
-    <header id="header">
+    <header>
 
-        <!-- Logo -->
-        <div class="headerLogo">
-            <a href="../index.html"> <img src="../assets/logo-round.png" alt="logo-round" class="headerLogoLink"></a>
-        </div>
-
-        <!-- Navegation -->
-        <nav>
-            <ul>
-                <li> <a href="./works.html">Works</a></li>
-                <li> <a href="./about.html">About</a></li>
-                <li> <a href="./contact.html">Contact</a></li>
-                <li> <a href="./solidary.html" class="selectedSection">Solidary</a></li>
-            </ul>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/logo-round.png" alt="Logo round"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="./works.html">Works</a>
+                        <a class="nav-link" href="./about.html">About</a>
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                        <a class="nav-link" href="./solidary.html">Solidary</a>
+                    </div>
+                </div>
+            </div>
         </nav>
+
+        <!-- Text -->
+        <div>
+            <h2>From my parents I learned that no matter what you do, you can always contribute something good.</h2>
+        </div>
 
     </header>
 
-    <!-- MAIN -->
-    <main class="backgroundSections">
+    <main>
 
-        <div class="solidaryTextsContainer">
+        <section>
 
-            <!-- Texts -->
-            <div class="solidaryTexts">
-            <h2>From my parents I learned that no matter what you do, <br> you can always contribute something good.</h2>
+            <div>
+                <h3>If you work in an NGO/Foundation/Non-profit organization or need help with a similar project, ¡write to me!</h3>
             </div>
 
-            <div class="solidaryTexts">
-            <h2>If you work in an NGO / Foundation / Non-profit organization, <br> ¡write me!
-            </h2>
-            </div>
-        </div>
+        <!-- Info container -->
+        <div>
 
-        <!-- Info -->
-        <div class="infoContainer">
             <!-- Email -->
-            <div class="infoDiv animate__animated animate__fadeInLeft">
-                <h3 class="infoText">Email</h3>
-                <a href="mailto:bracoagustin@gmail.com" target="_blank" class="infoLink">Bracoagustin@gmail.com</a>
+            <div>
+                <h3>Email</h3>
+                <a href="mailto:bracoagustin@gmail.com" target="_blank">Bracoagustin@gmail.com</a>
             </div>
 
             <!-- Phone -->
-            <div class="infoDiv animate__animated animate__fadeInUp">
-                <h3 class="infoText">Phone</h3>
-                <a href="https://walink.co/b91285" target="_blank" class="infoLink">+54 9 11 3392 3399</a>
+            <div>
+                <h3>Phone</h3>
+                <a href="https://walink.co/b91285" target="_blank">+54 9 11 3392 3399</a>
             </div>
 
             <!-- LinkedIn -->
-            <div class="infoDiv animate__animated animate__fadeInRight">
-                <h3 class="infoText">LinkedIn</h3>
-                <a href="https://www.linkedin.com/in/agust%C3%ADn-braco/" target="_blank" class="infoLink">@Agustin Braco</a>
+            <div>
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/agust%C3%ADn-braco/" target="_blank">@Agustin Braco</a>
             </div>
         </div>
 
+        </section>
+
+
+        <!-- Pre-footer -->
+        <section>
+
+            <!-- Round end -->
+            <div></div>
+                
+        </section>
     </main>
 
-    <!-- FOOTER -->
     <footer>
-        
-        <!-- Copyright -->
+
+        <!-- Photo and name -->
         <div>
-            <p>&#169 Copyright</p>
+            <img src="../assets/me-round.png" alt="My photo">
+            <div>
+                <p>Agustín Braco</p>
+                <p>Full Stack web developer</p>
+            </div>
         </div>
 
-        <!-- Time -->
-        <div class="footerTime">
-            <p>Local time</p>
-            <p>16:31</p>
+        <!-- Contact circle -->
+        <div>
+            <a href="../index.html">Home</a>
         </div>
 
-        <!-- Link header -->
-        <div class="footerUp">
-            <a href="#header" class="footerUpLink">¡Go up!</a>
-        </div> 
+        <!-- Solidary circle -->
+        <div>
+            <a href="./contact.html">Contact</a>
+        </div>
+
+        <!-- Bottom -->
+        <div>
+
+            <p>Copyright</p>
+
+            <div>
+                <p>Time</p>
+                <p>16:11</p>
+            </div>
+
+            <a href="#">¡Go up!</a>
+        </div>
 
     </footer>
+
+    <!-- Scipt Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
