@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Comfortaa", Helvetica, Arial, sans-serif;
-    font-weight: normal;
 }
   
 /* Root - HTML*/
@@ -29,14 +28,19 @@ html {
 }
 
 .bgGrey {
-    background-color: #F0EBE3;
+    background-color:  #F0EBE3;
 }
 
 .noLink {
     text-decoration: none;
 }
 
-/* HEADER INDEX */
+/* INDEX */
+/* Background */
+.bodyIndex {
+    background-color: #F0EBE3;
+}
+
 /* Navbar */
 .logoIndex {
     width: 3.5rem;
@@ -62,7 +66,7 @@ html {
 
 /* Texts */
 .textWelcome {
-    font-size: 5rem;
+    font-size: 5.5rem;
 }
 
 /* Gifs */
@@ -112,7 +116,7 @@ option {
 
 .textLanguage {
     padding-right: 2rem;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 .selectIndex {
@@ -130,19 +134,19 @@ option {
 
 /* Section-1 Index */
 .h2Index {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     text-align: center;
     padding: 5rem 1rem 0rem 1rem;
 }
 
 .h3Index {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     text-align: center;
     padding: 4rem 1rem 2rem 1rem;
 }
 
 .h4Index {
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-align: center;
     padding: 2rem 1rem 2rem 1rem;
 }
@@ -184,6 +188,7 @@ option {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     margin-top: -5.4rem;
+    margin-bottom: 1rem;
     
     box-shadow: 0px 5px 9px -4px rgba(41,41,41,0.71);
     -webkit-box-shadow: 0px 5px 9px -4px rgba(41,41,41,0.71);
@@ -216,17 +221,17 @@ option {
 
 /* Photo & Texts */
 .meRound {
-    max-width: 10rem;
+    max-width: 12rem;
 }
 
 .nameFooter {
     margin-left: 2rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .jobFooter {
     margin-left: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 /* Contact buton */
@@ -235,6 +240,7 @@ option {
     flex-flow: row nowrap;
     align-items: center;
     text-align: center;
+    padding: 1rem 0rem;
     margin: 0rem 2rem;
 }
 
@@ -252,13 +258,13 @@ option {
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
     border-radius: 50%;
     border: 0.3rem solid #576F72;
     background: #F0EBE3;
     color: #576F72;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 /* Solidary buton */
@@ -267,6 +273,7 @@ option {
     flex-flow: row nowrap;
     align-items: center;
     text-align: center;
+    padding: 1rem 0rem;
     margin: 0rem 2rem;
 }
 
@@ -284,11 +291,29 @@ option {
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
     border-radius: 50%;
     border: 0.3rem solid #576F72;
     background: #F0EBE3;
     color: #576F72;
+    font-size: 2rem;
+}
+
+/* Bottom */
+.bottomContainer {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.divContainerFooter {
+    font-size: 2rem;
+    color: #576F72;
+    margin-bottom: -1rem;
+}
+
+.timeContainerFooter {
     font-size: 1.5rem;
+    color: #576F72;
 }
