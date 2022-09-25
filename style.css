@@ -28,6 +28,10 @@ html {
     background-color: #576F72;
 }
 
+.bgGrey {
+    background-color: #F0EBE3;
+}
+
 .noLink {
     text-decoration: none;
 }
@@ -160,7 +164,7 @@ option {
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 7.65rem;
+    width: 7.6rem;
     height: 7.6rem;
     border-radius: 50%;
     border: 0.2rem solid #576F72;
@@ -171,9 +175,7 @@ option {
 
 
 /* Round end */
-
-/* OPTION 1 */
-.roundEnd {
+.roundEndGreen {
     width: 100%;
     height: 10rem;
     border: 0.1rem solid #576F72; 
@@ -188,23 +190,105 @@ option {
     -moz-box-shadow: 0px 5px 9px -4px rgba(41,41,41,0.71);
 }
 
-/* .roundEnd {
-    width: 100; 
-    height: 50px; 
-
-    border: 0.1rem solid #576F72; 
-    background: #576F72;
-
-    -moz-border-radius: 0 0 100px 100px;
-    -webkit-border-radius: 0 0 100px 100px;
-    border-radius: 0 0 100px 100px;
-
-    margin-top: -0.5rem;
-} */
+.roundEndGrey {
+    width: 100%;
+    height: 10rem;
+    border: 0.1rem solid #F0EBE3; 
+    background: #F0EBE3;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: -5.4rem;
+    
+    box-shadow: 0px 5px 9px -4px rgba(41,41,41,0.71);
+    -webkit-box-shadow: 0px 5px 9px -4px rgba(41,41,41,0.71);
+    -moz-box-shadow: 0px 5px 9px -4px rgba(41,41,41,0.71);
+}
 
 
 /* FOOTER */
+.meFooterDiv {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 3rem 0rem 1rem 2rem;
+}
+
+/* Photo & Texts */
 .meRound {
-    padding: 2rem 0rem 2rem 2rem;
-    max-width: 12rem;
+    max-width: 10rem;
+}
+
+.nameFooter {
+    margin-left: 2rem;
+    font-size: 1.8rem;
+}
+
+.jobFooter {
+    margin-left: 1rem;
+    font-size: 1.4rem;
+}
+
+/* Contact buton */
+.divContactFooter {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    text-align: center;
+    margin: 0rem 2rem;
+}
+
+.lineContactGreen {
+    background: #576F72;
+    height: 0.3rem;
+    width: 80%;
+    border-radius: 1rem;
+    opacity: 100%;
+    border: none;
+}
+
+.textContactFooter {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 0.3rem solid #576F72;
+    background: #F0EBE3;
+    color: #576F72;
+    font-size: 1.5rem;
+}
+
+/* Solidary buton */
+.divSolidaryFooter {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    text-align: center;
+    margin: 0rem 2rem;
+}
+
+.lineSolidaryGreen {
+    background: #576F72;
+    height: 0.3rem;
+    width: 80%;
+    border-radius: 1rem;
+    opacity: 100%;
+    border: none;
+}
+
+.textSolidaryFooter {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 0.3rem solid #576F72;
+    background: #F0EBE3;
+    color: #576F72;
+    font-size: 1.5rem;
 }
