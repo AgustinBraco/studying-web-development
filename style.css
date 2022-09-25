@@ -178,7 +178,7 @@ option {
     border: 0.3rem solid #576F72;
     background: #F0EBE3;
     color: #576F72;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .circleInside:hover {
@@ -275,6 +275,14 @@ option {
     font-size: 2rem;
 }
 
+.textContactFooter:focus {
+    color: #576F72;
+}
+
+.textContactFooter:active {
+    color: #576F72;
+}
+
 /* Solidary buton */
 .divSolidaryFooter {
     display: flex;
@@ -308,6 +316,14 @@ option {
     font-size: 2rem;
 }
 
+.textSolidaryFooter:focus {
+    color: #576F72;
+}
+
+.textSolidaryFooter:active {
+    color: #576F72;
+}
+
 /* Bottom */
 .bottomContainer {
     text-align: center;
@@ -323,5 +339,13 @@ option {
 
 .timeContainerFooter {
     font-size: 1.5rem;
+    color: #576F72;
+}
+
+.linkUp:focus {
+    color: #576F72;
+}
+
+.linkUp:active {
     color: #576F72;
 }
