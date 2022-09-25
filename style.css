@@ -57,6 +57,10 @@ html {
     font-size: 2rem;
 }
 
+.navLink:hover {
+    color: #F0EBE3;
+}
+
 .buttonNav {
     background-color: #F0EBE3;
     border: none;
@@ -134,19 +138,19 @@ option {
 
 /* Section-1 Index */
 .h2Index {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     text-align: center;
     padding: 5rem 1rem 0rem 1rem;
 }
 
 .h3Index {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     text-align: center;
     padding: 4rem 1rem 2rem 1rem;
 }
 
 .h4Index {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     padding: 2rem 1rem 2rem 1rem;
 }
@@ -156,8 +160,8 @@ option {
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 8rem;
-    height: 8rem;
+    width: 12rem;
+    height: 12rem;
     border-radius: 50%;
     background: #F0EBE3;
     margin: auto;
@@ -168,13 +172,17 @@ option {
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 7.6rem;
-    height: 7.6rem;
+    width: 11.5rem;
+    height: 11.5rem;
     border-radius: 50%;
-    border: 0.2rem solid #576F72;
+    border: 0.3rem solid #576F72;
     background: #F0EBE3;
     color: #576F72;
     font-size: 1.5rem;
+}
+
+.circleInside:hover {
+    color: #576F72;
 }
 
 
