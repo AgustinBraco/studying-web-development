@@ -146,19 +146,25 @@ option {
 .h2Index {
     font-size: 2.2rem;
     text-align: center;
-    padding: 10rem 3rem;
+    padding: 20rem 3rem 10rem 3rem;
 }
 
 .h3Index {
     font-size: 1.9rem;
     text-align: center;
-    padding: 10rem 3rem;
+    padding: 10rem 3rem 20rem 3rem;
 }
 
 .h4Index {
-    font-size: 3rem;
+    font-size: 1.9rem;
     text-align: center;
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 10rem 3rem 5rem 3rem;
+}
+
+.h5Index {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 5rem 3rem 10rem 3rem;
 }
 
 .circleContainer {
@@ -399,17 +405,19 @@ option {
     }
 
     .h2Index {
-        font-size: 4rem;
-        padding: 15rem 3rem;
-    }
-
-    .h3Index {
         font-size: 3rem;
-        padding: 15rem 3rem 10rem 3rem;
     }
-
+    
+    .h3Index {
+        font-size: 2.6rem;
+    }
+    
     .h4Index {
-        font-size: 4rem;
+        font-size: 2.5rem;
+    }
+    
+    .h5Index {
+        font-size: 3rem;
     }
 
     .divIndex {
@@ -530,16 +538,18 @@ option {
     }
 
     .h2Index {
-        padding: 20rem 3rem;
         font-size: 4.6rem;
     }
 
     .h3Index {
-        padding: 15rem 3rem 10rem 3rem;
         font-size: 3.5rem;
     }
 
     .h4Index {
+        font-size: 4rem;
+    }
+
+    .h5Index {
         font-size: 4.6rem;
     }
 
