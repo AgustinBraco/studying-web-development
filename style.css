@@ -296,10 +296,6 @@ option {
     color: #576F72;
 }
 
-.textContactFooter:active {
-    color: #576F72;
-}
-
 /* Solidary buton */
 .divSolidaryFooter {
     display: flex;
@@ -337,10 +333,6 @@ option {
     color: #576F72;
 }
 
-.textSolidaryFooter:active {
-    color: #576F72;
-}
-
 /* Bottom */
 .bottomContainer {
     text-align: center;
@@ -360,10 +352,6 @@ option {
 }
 
 .linkUp:focus {
-    color: #576F72;
-}
-
-.linkUp:active {
     color: #576F72;
 }
 
