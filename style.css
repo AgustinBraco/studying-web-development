@@ -5,12 +5,12 @@
     box-sizing: border-box;
     font-family: "Comfortaa", Helvetica, Arial, sans-serif;
 }
-  
+
 /* Root - HTML*/
 html {
     font-size: 62.5%;
 }
-  
+
 /* Google font */
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap");
 
@@ -28,7 +28,7 @@ html {
 }
 
 .bgGrey {
-    background-color:  #F0EBE3;
+    background-color: #F0EBE3;
 }
 
 .noLink {
@@ -136,6 +136,9 @@ option {
     outline: none;
     border: none;
     font-size: 1.5rem;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.58);
+    -webkit-box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.58);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.58);
 }
 
 
@@ -193,32 +196,32 @@ option {
 .roundEndGreen {
     width: 100%;
     height: 10rem;
-    border: 0.1rem solid #576F72; 
+    border: 0.1rem solid #576F72;
     background: #576F72;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     margin-top: -5.4rem;
     margin-bottom: 1rem;
-    
-    box-shadow: 0px 5px 9px -4px rgba(41,41,41,0.71);
-    -webkit-box-shadow: 0px 5px 9px -4px rgba(41,41,41,0.71);
-    -moz-box-shadow: 0px 5px 9px -4px rgba(41,41,41,0.71);
+
+    box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
+    -webkit-box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
+    -moz-box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
 }
 
 .roundEndGrey {
     width: 100%;
     height: 10rem;
-    border: 0.1rem solid #F0EBE3; 
+    border: 0.1rem solid #F0EBE3;
     background: #F0EBE3;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     margin-top: -5.4rem;
-    
-    box-shadow: 0px 5px 9px -4px rgba(41,41,41,0.71);
-    -webkit-box-shadow: 0px 5px 9px -4px rgba(41,41,41,0.71);
-    -moz-box-shadow: 0px 5px 9px -4px rgba(41,41,41,0.71);
+
+    box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
+    -webkit-box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
+    -moz-box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
 }
 
 
@@ -365,7 +368,7 @@ option {
         width: 7rem;
     }
 
-    .textWelcome{
+    .textWelcome {
         font-size: 9rem;
     }
 
@@ -390,7 +393,7 @@ option {
     .gifDeveloper {
         max-width: 8rem;
     }
-    
+
     .gifDiv {
         font-size: 2.8rem;
     }
@@ -417,7 +420,7 @@ option {
         width: 20rem;
         height: 20rem;
     }
-    
+
     .circleInside {
         width: 19rem;
         height: 19rem;
@@ -433,7 +436,7 @@ option {
         margin-left: 3rem;
         font-size: 4rem;
     }
-    
+
     .jobFooter {
         margin-left: 2rem;
         font-size: 2.5rem;
@@ -456,7 +459,7 @@ option {
     .divContainerFooter {
         font-size: 3rem;
     }
-    
+
     .timeContainerFooter {
         font-size: 2.3rem;
     }
@@ -506,7 +509,7 @@ option {
     .textLanguage {
         font-size: 3rem;
     }
-    
+
     .selectIndex {
         height: 3.5rem;
         width: 11rem;
@@ -516,11 +519,11 @@ option {
     .gifLocation {
         max-width: 8rem;
     }
-    
+
     .gifDeveloper {
         max-width: 8rem;
     }
-    
+
     .gifDiv {
         padding-top: 2rem;
         font-size: 2.5rem;
@@ -530,12 +533,12 @@ option {
         padding: 20rem 3rem;
         font-size: 4.6rem;
     }
-    
+
     .h3Index {
         padding: 15rem 3rem 10rem 3rem;
         font-size: 3.5rem;
     }
-    
+
     .h4Index {
         font-size: 4.6rem;
     }
@@ -544,7 +547,7 @@ option {
         width: 22rem;
         height: 22rem;
     }
-    
+
     .circleInside {
         width: 21rem;
         height: 21rem;
@@ -562,12 +565,12 @@ option {
     .meRound {
         max-width: 22rem;
     }
-    
+
     .nameFooter {
         margin-left: 3rem;
         font-size: 3rem;
     }
-    
+
     .jobFooter {
         margin-left: 2rem;
         font-size: 2.4rem;
@@ -576,7 +579,7 @@ option {
     .lineContactGreen {
         width: 90%;
     }
-    
+
     .textContactFooter {
         width: 22rem;
         height: 22rem;
@@ -593,7 +596,7 @@ option {
     .lineSolidaryGreen {
         width: 90%;
     }
-    
+
     .textSolidaryFooter {
         width: 22rem;
         height: 22rem;
