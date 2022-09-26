@@ -617,5 +617,6 @@ option {
 
     .linkUp:hover {
         color: #576F72;
+        transform: scale(1.2);
     }
 }
