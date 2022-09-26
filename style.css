@@ -143,13 +143,13 @@ option {
 .h2Index {
     font-size: 2.2rem;
     text-align: center;
-    padding: 5rem 1rem 0rem 1rem;
+    padding: 10rem 3rem;
 }
 
 .h3Index {
     font-size: 1.9rem;
     text-align: center;
-    padding: 4rem 1rem 2rem 1rem;
+    padding: 10rem 3rem;
 }
 
 .h4Index {
@@ -233,11 +233,11 @@ option {
 /* Photo & Texts */
 .meRound {
     max-width: 12rem;
-    transition: all 0.5s ease;
+    transition: all 0.6s ease;
 }
 
 .meRound:hover {
-    transform: scale(2);
+    transform: scale(1.6);
 }
 
 .nameFooter {
@@ -397,14 +397,12 @@ option {
 
     .h2Index {
         font-size: 4rem;
-        padding-top: 7rem;
-        padding-bottom: 5rem;
+        padding: 15rem 3rem;
     }
 
     .h3Index {
         font-size: 3rem;
-        padding-top: 7rem;
-        padding-bottom: 5rem;
+        padding: 15rem 3rem 10rem 3rem;
     }
 
     .h4Index {
@@ -529,12 +527,12 @@ option {
     }
 
     .h2Index {
-        padding: 15rem 3rem;
+        padding: 20rem 3rem;
         font-size: 4.6rem;
     }
     
     .h3Index {
-        padding: 15rem 3rem;
+        padding: 15rem 3rem 10rem 3rem;
         font-size: 3.5rem;
     }
     
@@ -552,12 +550,11 @@ option {
         height: 21rem;
         border: 0.5rem solid #576F72;
         font-size: 3.5rem;
-        transition: all 0.5s ease;
+        transition: all 0.6s ease;
     }
 
     .circleInside:hover {
         transform: scale(0.95);
-        border: 0.5rem solid #F0EBE3;
         background-color: #576F72;
         color: #F0EBE3;
     }
@@ -616,11 +613,9 @@ option {
 
     .timeContainerFooter {
         font-size: 2.3rem;
-        transition: all 0.5s ease;
     }
 
     .linkUp:hover {
         color: #576F72;
-        transform: translateY(-10px);
     }
 }
