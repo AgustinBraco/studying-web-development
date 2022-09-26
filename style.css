@@ -233,6 +233,11 @@ option {
 /* Photo & Texts */
 .meRound {
     max-width: 12rem;
+    transition: all 0.5s ease;
+}
+
+.meRound:hover {
+    transform: scale(2);
 }
 
 .nameFooter {
@@ -464,3 +469,158 @@ option {
 }
 
 /* DESKTOP */
+@media only screen and (min-width: 992px) {
+    .logoIndex {
+        width: 8rem;
+        transition: all 0.5s ease;
+    }
+
+    .logoIndex:hover {
+        transform: scale(0.8);
+    }
+
+    .navLink {
+        font-size: 2.5rem;
+        transition: all 0.5s ease;
+    }
+
+    .navLink:hover {
+        transform: scale(1.3);
+    }
+
+    .navHeight {
+        height: 11rem;
+    }
+
+    .textWelcome {
+        font-size: 9rem;
+    }
+
+    .gifWorld {
+        width: 30rem;
+        transition: all 0.5s ease;
+    }
+
+    .gifWorld:hover {
+        transform: scale(1.2);
+    }
+
+    .textLanguage {
+        font-size: 3rem;
+    }
+    
+    .selectIndex {
+        height: 3.5rem;
+        width: 11rem;
+        font-size: 2rem;
+    }
+
+    .gifLocation {
+        max-width: 8rem;
+    }
+    
+    .gifDeveloper {
+        max-width: 8rem;
+    }
+    
+    .gifDiv {
+        padding-top: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .h2Index {
+        padding: 15rem 3rem;
+        font-size: 4.6rem;
+    }
+    
+    .h3Index {
+        padding: 15rem 3rem;
+        font-size: 3.5rem;
+    }
+    
+    .h4Index {
+        font-size: 4.6rem;
+    }
+
+    .circleContainer {
+        width: 22rem;
+        height: 22rem;
+    }
+    
+    .circleInside {
+        width: 21rem;
+        height: 21rem;
+        border: 0.5rem solid #576F72;
+        font-size: 3.5rem;
+        transition: all 0.5s ease;
+    }
+
+    .circleInside:hover {
+        transform: scale(0.95);
+        border: 0.5rem solid #F0EBE3;
+        background-color: #576F72;
+        color: #F0EBE3;
+    }
+
+    .meRound {
+        max-width: 22rem;
+    }
+    
+    .nameFooter {
+        margin-left: 3rem;
+        font-size: 3rem;
+    }
+    
+    .jobFooter {
+        margin-left: 2rem;
+        font-size: 2.4rem;
+    }
+
+    .lineContactGreen {
+        width: 90%;
+    }
+    
+    .textContactFooter {
+        width: 22rem;
+        height: 22rem;
+        font-size: 3rem;
+        transition: all 0.5s ease;
+    }
+
+    .textContactFooter:hover {
+        transform: scale(1.1);
+        background-color: #576F72;
+        color: #F0EBE3;
+    }
+
+    .lineSolidaryGreen {
+        width: 90%;
+    }
+    
+    .textSolidaryFooter {
+        width: 22rem;
+        height: 22rem;
+        font-size: 3rem;
+        transition: all 0.5s ease;
+    }
+
+    .textSolidaryFooter:hover {
+        transform: scale(1.1);
+        background-color: #576F72;
+        color: #F0EBE3;
+    }
+
+    .divContainerFooter {
+        font-size: 3rem;
+    }
+
+    .timeContainerFooter {
+        font-size: 2.3rem;
+        transition: all 0.5s ease;
+    }
+
+    .linkUp:hover {
+        color: #576F72;
+        transform: translateY(-10px);
+    }
+}
