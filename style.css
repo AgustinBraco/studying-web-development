@@ -55,6 +55,7 @@ html {
 .navLink {
     padding: 3rem;
     font-size: 2rem;
+
 }
 
 .navLink:hover {
@@ -102,6 +103,7 @@ html {
 .gifWorld {
     mix-blend-mode: multiply;
     width: 20rem;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.498));
 }
 
 /* Divs Header Index */
@@ -147,24 +149,28 @@ option {
     font-size: 2.2rem;
     text-align: center;
     padding: 20rem 3rem 10rem 3rem;
+    text-shadow: 0px 5px 3px rgba(0,0,0,0.54);
 }
 
 .h3Index {
     font-size: 1.9rem;
     text-align: center;
     padding: 10rem 3rem 20rem 3rem;
+    text-shadow: 0px 5px 3px rgba(0,0,0,0.54);
 }
 
 .h4Index {
     font-size: 1.9rem;
     text-align: center;
     padding: 10rem 3rem 5rem 3rem;
+    text-shadow: 0px 5px 3px rgba(0,0,0,0.54);
 }
 
 .h5Index {
     font-size: 2.5rem;
     text-align: center;
     padding: 5rem 3rem 10rem 3rem;
+    text-shadow: 0px 5px 3px rgba(0,0,0,0.54);
 }
 
 .circleContainer {
@@ -177,6 +183,7 @@ option {
     border-radius: 50%;
     background: #F0EBE3;
     margin: auto;
+    filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.54));
 }
 
 .circleInside {
@@ -473,7 +480,8 @@ option {
     }
 
     .logoIndex:hover {
-        transform: scale(0.8);
+        transform: scale(1.1);
+        filter: drop-shadow(0px 6px 3px rgba(0, 0, 0, 0.54));
     }
 
     .navLink {
@@ -483,6 +491,7 @@ option {
 
     .navLink:hover {
         transform: scale(1.3);
+        text-shadow: 0px 5px 3px rgba(0,0,0,0.54);
     }
 
     .navHeight {
