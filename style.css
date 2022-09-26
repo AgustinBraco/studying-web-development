@@ -112,6 +112,9 @@ html {
 /* Text & Select */
 option {
     background-color: #F0EBE3;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.5rem;
 }
 
 .divLanguage {
@@ -349,3 +352,115 @@ option {
 .linkUp:active {
     color: #576F72;
 }
+
+
+/* TABLET */
+@media only screen and (min-width: 670px) and (max-width: 991px) {
+    .logoIndex {
+        width: 7rem;
+    }
+
+    .textWelcome{
+        font-size: 9rem;
+    }
+
+    .gifWorld {
+        width: 30rem;
+    }
+
+    .textLanguage {
+        font-size: 3.6rem;
+    }
+
+    .selectIndex {
+        height: 4.3rem;
+        width: 15rem;
+        font-size: 3rem;
+    }
+
+    .gifLocation {
+        max-width: 8rem;
+    }
+
+    .gifDeveloper {
+        max-width: 8rem;
+    }
+    
+    .gifDiv {
+        font-size: 2.8rem;
+    }
+
+    .h2Index {
+        font-size: 4rem;
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+    }
+
+    .h3Index {
+        font-size: 3rem;
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+    }
+
+    .h4Index {
+        font-size: 4rem;
+    }
+
+    .divIndex {
+        padding: 6.9rem 0rem;
+    }
+
+    .circleContainer {
+        width: 20rem;
+        height: 20rem;
+    }
+    
+    .circleInside {
+        width: 19rem;
+        height: 19rem;
+        border: 0.4rem solid #576F72;
+        font-size: 4rem;
+    }
+
+    .meRound {
+        max-width: 20rem;
+    }
+
+    .nameFooter {
+        margin-left: 3rem;
+        font-size: 4rem;
+    }
+    
+    .jobFooter {
+        margin-left: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .textContactFooter {
+        width: 20rem;
+        height: 20rem;
+        border: 0.3rem solid #576F72;
+        font-size: 3rem;
+    }
+
+    .textSolidaryFooter {
+        width: 20rem;
+        height: 20rem;
+        border: 0.3rem solid #576F72;
+        font-size: 3rem;
+    }
+
+    .divContainerFooter {
+        font-size: 3rem;
+    }
+    
+    .timeContainerFooter {
+        font-size: 2.3rem;
+    }
+
+    .navLink {
+        font-size: 4rem;
+    }
+}
+
+/* DESKTOP */
