@@ -621,3 +621,35 @@ option {
         transform: scale(1.2);
     }
 }
+
+
+/* WORKS */
+.bodyPages {
+    background-color: #576F72;
+}
+
+.divWorkLeft {
+    padding: 2rem 1rem;
+    margin: 1rem;
+
+    border: solid 2px red;
+}
+
+.divWorkRight {
+    padding: 2rem 1rem;
+    margin: 1rem;
+
+    border: solid 2px red;
+}
+
+.textWorkLeft {
+    font-size: 3rem;
+    text-align: start;
+}
+
+.textWorkRight {
+    font-size: 3rem;
+    text-align: end;
+}
+
+
