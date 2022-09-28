@@ -61,6 +61,7 @@ html {
     padding: 2rem;
     font-size: 3rem;
     margin: 2rem;
+    font-weight: bold;
 }
 
 .navLink:hover {
@@ -215,7 +216,6 @@ option {
     border-radius: 50%;
     margin-top: -5.4rem;
     margin-bottom: 1rem;
-
     box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
     -webkit-box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
     -moz-box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
@@ -230,7 +230,6 @@ option {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     margin-top: -5.4rem;
-
     box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
     -webkit-box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
     -moz-box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
@@ -655,6 +654,7 @@ option {
     font-size: 2.5rem;
     text-align: center;
     padding: 2rem;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
 .lineContactGrey {
@@ -681,6 +681,10 @@ option {
     font-weight: bold;
 }
 
+.textContactFooterGrey:hover {
+    color: #F0EBE3;
+}
+
 .lineSolidaryGrey {
     background: #F0EBE3;
     height: 0.3rem;
@@ -703,4 +707,28 @@ option {
     color: #F0EBE3;
     font-size: 2rem;
     font-weight: bold;
+}
+
+.textSolidaryFooterGrey:hover {
+    color: #F0EBE3;
+}
+
+.worksImage {
+    width: 15rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.worksLink {
+    font-size: 3rem;
+    padding-top: 4rem;
+    font-weight: bold;
+}
+
+.worksLink:hover {
+    color: #576F72;
+}
+
+.linkUpGrey:hover {
+    color: #F0EBE3;
 }
