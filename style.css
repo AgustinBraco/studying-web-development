@@ -308,6 +308,10 @@ option {
     font-weight: bold;
 }
 
+.textContactFooter:hover {
+    color: #576F72;
+}
+
 /* Solidary buton */
 .divSolidaryFooter {
     display: flex;
@@ -342,6 +346,10 @@ option {
     font-weight: bold;
 }
 
+.textSolidaryFooter:hover {
+    color: #576F72;
+}
+
 /* Bottom */
 .bottomContainer {
     text-align: center;
@@ -357,6 +365,10 @@ option {
 
 .timeContainerFooter {
     font-size: 1.5rem;
+    color: #576F72;
+}
+
+.linkUp:hover {
     color: #576F72;
 }
 
@@ -713,4 +725,16 @@ option {
     color: #F0EBE3;
     font-size: 2rem;
     font-weight: bold;
+}
+
+.linkUpGrey:hover {
+    color: #F0EBE3;
+}
+
+.textContactFooterGrey:hover {
+    color: #F0EBE3;
+}
+
+.textSolidaryFooterGrey:hover {
+    color: #F0EBE3;
 }
