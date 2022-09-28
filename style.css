@@ -35,6 +35,16 @@ html {
     text-decoration: none;
 }
 
+.selectionGreen::selection {
+    background-color: #576F72;
+    color: #F0EBE3;
+}
+
+.selectionGrey {
+    background-color: #F0EBE3;
+    color: #576F72;
+}
+
 /* INDEX */
 /* Background */
 .bodyIndex {
@@ -46,16 +56,13 @@ html {
     width: 3.5rem;
 }
 
-.navDiv {
-    display: flex;
-    justify-content: end;
-    margin: 3rem;
-}
-
 .navLink {
     padding: 3rem;
     font-size: 2rem;
-
+    text-align: end;
+    padding: 2rem;
+    font-size: 3rem;
+    margin: 2rem;
 }
 
 .navLink:hover {
@@ -67,7 +74,6 @@ html {
     border: none;
     outline: none;
 }
-
 
 /* Texts */
 .textWelcome {
@@ -198,6 +204,7 @@ option {
     background: #F0EBE3;
     color: #576F72;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .circleInside:hover {
@@ -259,6 +266,7 @@ option {
 .nameFooter {
     margin-left: 2rem;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .jobFooter {
@@ -297,10 +305,7 @@ option {
     background: #F0EBE3;
     color: #576F72;
     font-size: 2rem;
-}
-
-.textContactFooter:focus {
-    color: #576F72;
+    font-weight: bold;
 }
 
 /* Solidary buton */
@@ -334,10 +339,7 @@ option {
     background: #F0EBE3;
     color: #576F72;
     font-size: 2rem;
-}
-
-.textSolidaryFooter:focus {
-    color: #576F72;
+    font-weight: bold;
 }
 
 /* Bottom */
@@ -355,10 +357,6 @@ option {
 
 .timeContainerFooter {
     font-size: 1.5rem;
-    color: #576F72;
-}
-
-.linkUp:focus {
     color: #576F72;
 }
 
@@ -504,11 +502,6 @@ option {
 
     .gifWorld {
         width: 30rem;
-        transition: all 0.5s ease;
-    }
-
-    .gifWorld:hover {
-        transform: scale(1.2);
     }
 
     .textLanguage {
@@ -624,41 +617,100 @@ option {
     .timeContainerFooter {
         font-size: 2.3rem;
     }
-
-    .linkUp:hover {
-        color: #576F72;
-        transform: scale(1.2);
-    }
 }
 
 
 /* WORKS */
 .bodyPages {
-    background-color: #576F72;
+    background-color: #F0EBE3;
+}
+
+.navLinkPages {
+    text-align: end;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2rem;
 }
 
 .divWorkLeft {
-    padding: 2rem 1rem;
+    padding: 5rem 1rem;
     margin: 1rem;
-
-    border: solid 2px red;
 }
 
 .divWorkRight {
-    padding: 2rem 1rem;
+    padding: 5rem 1rem;
     margin: 1rem;
-
-    border: solid 2px red;
 }
 
 .textWorkLeft {
     font-size: 3rem;
     text-align: start;
+    font-weight: bold;
 }
 
 .textWorkRight {
     font-size: 3rem;
     text-align: end;
+    font-weight: bold;
 }
 
+.h3Works {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 4rem 0rem;
+}
 
+.h4Works {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.lineContactGrey {
+    background: #F0EBE3;
+    height: 0.3rem;
+    width: 80%;
+    border-radius: 1rem;
+    opacity: 100%;
+    border: none;
+}
+
+.textContactFooterGrey {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: 0.3rem solid #F0EBE3;
+    background: #576F72;
+    color: #F0EBE3;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.lineSolidaryGrey {
+    background: #F0EBE3;
+    height: 0.3rem;
+    width: 80%;
+    border-radius: 1rem;
+    opacity: 100%;
+    border: none;
+}
+
+.textSolidaryFooterGrey {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    border: 0.3rem solid #F0EBE3;
+    background: #576F72;
+    color: #F0EBE3;
+    font-size: 2rem;
+    font-weight: bold;
+}
