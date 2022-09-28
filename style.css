@@ -1,3 +1,6 @@
+/* Google font */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap");
+
 /* Reset */
 * {
     margin: 0;
@@ -6,13 +9,11 @@
     font-family: "Comfortaa", Helvetica, Arial, sans-serif;
 }
 
+
 /* Root - HTML*/
 html {
     font-size: 62.5%;
 }
-
-/* Google font */
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap");
 
 /* Colors */
 .textGrey {
