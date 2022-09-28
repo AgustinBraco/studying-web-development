@@ -63,6 +63,7 @@ html {
     padding: 2rem;
     font-size: 3rem;
     margin: 2rem;
+    font-weight: bold;
 }
 
 .navLink:hover {
