@@ -1192,7 +1192,7 @@ option {
         justify-content: space-around;
         align-items: center;
         transition: all 0.6s ease;
-        filter: grayscale();
+        filter: grayscale(1);
     }
 
     .divPages:hover {
@@ -1215,7 +1215,7 @@ option {
     }
 
     .divTools {
-        filter: grayscale();
+        filter: grayscale(1);
         transition: all 0.8s ease;
     }
 
@@ -1240,7 +1240,7 @@ option {
     
     .mapAbout {
         padding-bottom: 12rem;
-        filter:grayscale();
+        filter:grayscale(1);
         transition: all 0.8s ease;
     }
 
