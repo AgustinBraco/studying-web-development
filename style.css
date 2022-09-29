@@ -632,6 +632,7 @@ option {
 .inputContact {
     background-color: #E4DCCF;
     border: 1px solid #E4DCCF;
+    color: #576F72;
     outline-style: none;
     height: 5rem;
     width: 100%;
@@ -639,11 +640,22 @@ option {
     padding-left: 1rem;
     font-size: 1.5rem;
     font-weight: 100;
+    transition: all 0.7s ease;
+}
+
+.inputContact:focus {
+    background-color: #576F72;
+    color: #F0EBE3;
+}
+
+.inputContact:focus::placeholder {
+    color: #E4DCCF;
 }
 
 .inputMessage {
     background-color: #E4DCCF;
     border: 1px solid #E4DCCF;
+    color: #576F72;
     outline-style: none;
     height: 15rem;
     width: 100%;
@@ -653,6 +665,16 @@ option {
     font-size: 1.5rem;
     font-weight: 100;
     resize: none;
+    transition: all 0.7s ease;
+}
+
+.inputMessage:focus {
+    background-color: #576F72;
+    color: #F0EBE3;
+}
+
+.inputMessage:focus::placeholder {
+    color: #E4DCCF;
 }
 
 .divButton {
@@ -670,6 +692,7 @@ option {
     width: 10rem;
     font-weight: 400;
     color: #576F72;
+    transition: all 0.3s ease;
 }
 
 .gifCode {
@@ -1295,6 +1318,14 @@ option {
         font-size: 3rem;
         height: 6rem;
         width: 15rem;
+        transition: all 0.4s ease;
+    }
+
+    .buttonSend:hover {
+        background-color: #576F72;
+        border: 1px solid #576F72;
+        color: #F0EBE3;
+        transform: scale(0.93);
     }
 
 }
