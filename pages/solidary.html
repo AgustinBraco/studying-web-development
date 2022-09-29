@@ -20,119 +20,137 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
 
-    <title>A|B - Solidary</title>
+    <title>A|B - Works</title>
 </head>
 
-<body>
+<body class="bodyPages">
 
-    <header>
+    <header class="bgGrey textGreen container-fluid">
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../assets/logo-round.png" alt="Logo round"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg bgGrey">
+            <div class="container-fluid navHeight">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/logo-round.png" alt="Logo round" class="logoIndex"></a>
+                <button class="navbar-toggler buttonNav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="./works.html">Works</a>
-                        <a class="nav-link" href="./about.html">About</a>
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                        <a class="nav-link" href="./solidary.html">Solidary</a>
+                        <a class="nav-link textGreen noLink navLinkPages" href="./works.html">Works</a>
+                        <a class="nav-link textGreen noLink navLinkPages" href="./about.html">About</a>
+                        <a class="nav-link textGreen noLink navLinkPages" href="./contact.html">Contact</a>
+                        <a class="nav-link textGreen noLink navLinkPages" href="./solidary.html">Solidary</a>
                     </div>
                 </div>
             </div>
         </nav>
 
-        <!-- Text -->
-        <div>
-            <h2>From my parents I learned that no matter what you do, you can always contribute something good.</h2>
+        <!-- Texts -->
+        <div class="divWorkLeft animate__animated animate__fadeInLeft">
+            <h2 class="textSolidary">From my parents I learned that no matter what you do, you can always contribute something good.</h2>
+        </div>
+
+        <div class="divWorkRight animate__animated animate__fadeInRight">
+            <h2 class="textSolidary">If you work in an NGO/Foundation/Non-profit organization or need help with a similar project, ¡write to me!</h2>
         </div>
 
     </header>
 
-    <main>
+    <main class="bgGreen">
 
-        <section>
+        <!-- Info -->
+        <section class="bgGrey textGreen container-fluid sectionWorks">
 
-            <div>
-                <h3>If you work in an NGO/Foundation/Non-profit organization or need help with a similar project, ¡write to me!</h3>
-            </div>
+            <div class="infoContainer">
 
-        <!-- Info container -->
-        <div>
+                 <!-- Email -->               
+                <div class="divInfo">
+                    <p class="infoText">Email</p>
+                    <a href="emailto:bracoagustin@gmail.com" target="_blank" class="infoLink noLink textGreen">bracoagustin@gmail.com</a>
+                </div>
 
-            <!-- Email -->
-            <div>
-                <h3>Email</h3>
-                <a href="mailto:bracoagustin@gmail.com" target="_blank">Bracoagustin@gmail.com</a>
-            </div>
+                 <!-- Phone -->               
+                 <div class="divInfo">
+                    <p class="infoText">Phone</p>
+                    <a href="https://walink.co/86e423" target="_blank" class="infoLink noLink textGreen">+54 9 11 3392 3399</a>
+                </div>
 
-            <!-- Phone -->
-            <div>
-                <h3>Phone</h3>
-                <a href="https://walink.co/b91285" target="_blank">+54 9 11 3392 3399</a>
-            </div>
-
-            <!-- LinkedIn -->
-            <div>
-                <h3>LinkedIn</h3>
-                <a href="https://www.linkedin.com/in/agust%C3%ADn-braco/" target="_blank">@Agustin Braco</a>
-            </div>
-        </div>
+                <!-- LinkedIn -->               
+                <div class="divInfo">
+                    <p class="infoText">Linked</p>
+                    <a href="https://www.linkedin.com/in/agust%C3%ADn-braco/" target="_blank" class="infoLink noLink textGreen">Agustín Braco</a>
+                </div>
 
         </section>
 
+        <!-- Round end -->
+        <div class="roundEndGrey"></div>
 
-        <!-- Pre-footer -->
-        <section>
-
-            <!-- Round end -->
-            <div></div>
-                
-        </section>
     </main>
 
-    <footer>
+    <footer class="container-fluid bgGreen">
 
         <!-- Photo and name -->
-        <div>
-            <img src="../assets/me-round.png" alt="My photo">
+        <div class="meFooterDiv">
+            <img src="../assets/me-round-grey.png" alt="My photo" class="meRound">
             <div>
-                <p>Agustín Braco</p>
-                <p>Full Stack web developer</p>
+                <p class="nameFooter textGrey">Agustín Braco</p>
+                <p class="jobFooter textGrey">Full Stack web developer</p>
             </div>
         </div>
 
-        <!-- Contact circle -->
-        <div>
-            <a href="../index.html">Home</a>
+        <!-- Home -->
+        <div class="divContactFooter">
+
+            <!-- Line -->
+            <hr class="lineContactGrey">
+
+            <!-- Circle -->
+            <div>
+                <a href="../index.html" class="textContactFooterGrey noLink">Home</a>
+            </div>
+
         </div>
 
-        <!-- Solidary circle -->
-        <div>
-            <a href="./contact.html">Contact</a>
+        <!-- Contact -->
+        <div class="divSolidaryFooter">
+
+            <!-- Circle -->
+            <div>
+                <a href="./contact.html" class="textSolidaryFooterGrey noLink">Contact</a>
+            </div>
+
+            <!-- Line -->
+            <hr class="lineSolidaryGrey">
+
         </div>
+
 
         <!-- Bottom -->
-        <div>
-
-            <p>Copyright</p>
-
-            <div>
-                <p>Time</p>
-                <p>16:11</p>
+        <div class="container bottomContainer">
+            <div class="row divContainerFooter">
+                <p class="col-4 textGrey">Copyright</p>
+                <p class="col-4 textGrey">Local time</p>
+                <div class="col-4">
+                    <a href="#" class="noLink textGrey linkUpGrey">¡Go up!</a>
+                </div>
             </div>
 
-            <a href="#">¡Go up!</a>
+            <div class="row timeContainerFooter">
+                <p class="col-12 textGrey">16:11</p>
+            </div>
+
         </div>
 
     </footer>
 
     <!-- Scipt Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
 
     <!-- Script AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

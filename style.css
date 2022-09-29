@@ -553,6 +553,50 @@ option {
 
 
 
+/* SOLIDARY */
+.textSolidary {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.infoContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+.divInfo {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 5rem 1rem;
+}
+
+.infoText {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.infoLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: normal;
+    background-color: #E4DCCF;
+    border-radius: 2rem;
+    height: 10rem;
+    width: 38rem;
+}
+
+.infoLink:hover {
+    color: #576F72;
+}
+
+
+
 /* TABLET */
 @media only screen and (min-width: 670px) and (max-width: 991px) {
     .logoIndex {
@@ -732,6 +776,25 @@ option {
     
     .mapAbout {
         padding-bottom: 10rem;
+    }
+
+    /* SOLIDARY */
+    .textSolidary {
+        font-size: 4rem;
+    }
+
+    .divInfo {
+        padding: 10rem 1rem;
+    }
+
+    .infoText {
+        font-size: 5rem;
+    }
+
+    .infoLink {
+        font-size: 3.5rem;
+        height: 15rem;
+        width: 60rem;
     }
 
 }
@@ -1041,5 +1104,40 @@ option {
 
     .mapAbout:hover {
         filter: none;
+    }
+
+    /* SOLIDARY */
+    .textSolidary {
+        font-size: 5rem;
+        padding: 7rem 0rem;
+    }
+
+    .infoContainer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        padding: 2rem 0rem 20rem 0rem;
+    }
+
+    .divInfo {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .infoText {
+        font-size: 4rem;
+    }
+
+    .infoLink {
+        font-size: 3rem;
+        height: 12rem;
+        width: 50rem;
+        transition: all 0.5s ease;
+    }
+
+    .infoLink:hover {
+        transform: scale(0.85);
+        background-color: #576F72;
+        color: #F0EBE3;
     }
 }
