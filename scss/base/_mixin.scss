@@ -1,5 +1,47 @@
-// @mixin flexCenter {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
+// Links
+@mixin navLink {
+    text-align: end;
+    padding: 2rem;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+@mixin linkGrey {
+    text-decoration: none;
+    color: nth($color,2);
+
+    &:hover {
+        color: nth($color,2);
+    }
+
+    &:focus {
+        color: nth($color,2);
+    }
+}
+
+@mixin linkGreen {
+    text-decoration: none;
+    color: nth($color,1);
+
+    &:hover {
+        color: nth($color,1);
+    }
+
+    &:focus {
+        color: nth($color,1);
+    }
+}
+
+// Flex
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin flexRow {
+    display: flex;
+    flex-flow: row nowrap;
+}
+

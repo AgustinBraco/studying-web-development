@@ -1,0 +1,151 @@
+@import '../base/list';
+@import '../base/mixin';
+
+// INDEX
+.footerIndex {
+    background-color: nth($color,2);
+    color: nth($color,1);
+
+    .divFooter {
+        @include flexRow;
+        align-items: center;
+        justify-content: left;
+        padding: 3rem 0rem 1rem 1rem;
+
+        .photoFooter {
+            max-width: 12rem;
+        }
+
+        .nameFooter {
+            margin-left: 2rem;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        .jobFooter {
+            margin-left: 1rem;
+            font-size: 1.8rem;
+        }
+    }
+
+    .figureFooter {
+        @include flexCenter;
+        @include flexRow;
+        padding: 1rem 0rem;
+        margin: 0rem 2rem;
+
+        .lineGreen {
+            background: nth($color,1);
+            height: 0.3rem;
+            width: 80%;
+            border-radius: 1rem;
+            opacity: 100%;
+            border: none;
+        }
+
+        .circleGreen {
+            @include flexCenter;
+            @include linkGreen;
+            width: 12rem;
+            height: 12rem;
+            border-radius: 50%;
+            border: 0.3rem solid #576F72;
+            background-color: nth($color,2);
+            color: nth($color,1);
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    }
+
+    .divBottom {
+        display: flex;
+        justify-content: space-between;
+        background-color: nth($color,2);
+        color: nth($color,1);
+        font-size: 1.6rem;
+        padding: 3rem 1rem 2rem 1rem;
+
+        .linkUp {
+            @include linkGreen;
+        }
+    }
+}
+
+
+// WORKS & ABOUT
+.footerWorks {
+    background-color: nth($color,1);
+    color: nth($color,2);
+
+    .divFooter {
+        @include flexRow;
+        align-items: center;
+        justify-content: left;
+        padding: 3rem 0rem 1rem 1rem;
+
+        .photoFooter {
+            max-width: 12rem;
+        }
+
+        .nameFooter {
+            margin-left: 2rem;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        .jobFooter {
+            margin-left: 1rem;
+            font-size: 1.8rem;
+        }
+    }
+
+    .figureFooter {
+        @include flexCenter;
+        @include flexRow;
+        padding: 1rem 0rem;
+        margin: 0rem 2rem;
+
+        .lineGrey {
+            background: nth($color,2);
+            height: 0.3rem;
+            width: 80%;
+            border-radius: 1rem;
+            opacity: 100%;
+            border: none;
+        }
+
+        .circleGrey {
+            @include flexCenter;
+            @include linkGrey;
+            width: 12rem;
+            height: 12rem;
+            border-radius: 50%;
+            border: 0.3rem solid #F0EBE3;
+            background-color: nth($color,1);
+            color: nth($color,2);
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    }
+
+    .divBottom {
+        display: flex;
+        justify-content: space-between;
+        background-color: nth($color,1);
+        color: nth($color,2);
+        font-size: 1.6rem;
+        padding: 3rem 1rem 2rem 1rem;
+
+        .linkUp {
+            @include linkGrey;
+        }
+    }
+}
+
+
+
+// CONTACT
+
+
+
+// SOLIDARY

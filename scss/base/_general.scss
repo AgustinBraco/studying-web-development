@@ -1,0 +1,25 @@
+@import '../base/list';
+
+/* Google font */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap");
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+}
+
+/* Root */
+html {
+    font-size: 62.5%;
+}
+
+.bodyIndex {
+    background-color: nth($color,2);
+}
+
+.bodyPages {
+    background-color: nth($color,1);
+}

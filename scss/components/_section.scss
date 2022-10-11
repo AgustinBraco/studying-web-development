@@ -1,0 +1,74 @@
+@import '../base/list';
+@import '../base/mixin';
+
+// INDEX
+.sectionIndex {
+    background-color: nth($color,1);
+    color: nth($color,2);
+
+    h2 {
+        font-size: 2.2rem;
+        text-align: center;
+        padding: 20rem 3rem 10rem 3rem;
+        text-shadow: 0px 5px 3px rgba(0,0,0,0.54);
+    }
+
+    h3 {
+        font-size: 1.9rem;
+        text-align: center;
+        padding: 10rem 3rem 20rem 3rem;
+        text-shadow: 0px 5px 3px rgba(0,0,0,0.54);
+    }
+
+    h4 {
+        font-size: 1.9rem;
+        text-align: center;
+        padding: 10rem 3rem 5rem 3rem;
+        text-shadow: 0px 5px 3px rgba(0,0,0,0.54);
+    }
+
+    h5 {
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 5rem 3rem 10rem 3rem;
+        text-shadow: 0px 5px 3px rgba(0,0,0,0.54);
+    }
+
+    .circleBig {
+        @include flexCenter;
+        background-color: nth($color,2);
+        border-radius: 50%;
+        width: 12rem;
+        height: 12rem;
+        margin: auto;
+        filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.54));
+
+        .circleSmall {
+            @include flexCenter;
+            @include linkGreen;
+            border-radius: 50%;
+            width: 11.5rem;
+            height: 11.5rem;
+            border: 0.3rem solid #576F72;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    }
+}
+
+.roundEndGreen {
+    background-color: nth($color,1);
+    border-radius: 50%;
+    width: 100%;
+    height: 10rem;
+    margin-top: -5.4rem;
+    margin-bottom: 1rem;
+    border: 0.1rem solid #576F72;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
+    -webkit-box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
+    -moz-box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
+}
+
+// WORKS

@@ -35,23 +35,23 @@
     <title>A|B - Contact</title>
 </head>
 
-<body class="bodyPages">
+<body>
 
-    <header class="bgGrey textGreen container-fluid">
+    <header class="container-fluid headerPages">
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bgGrey">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid navHeight">
                 <a class="navbar-brand" href="../index.html"><img src="../assets/logo-round.png" alt="Logo Agustin Braco" class="logoIndex" title="Logo Agustin Braco"></a>
-                <button class="navbar-toggler buttonNav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link textGreen noLink navLinkPages" href="./works.html">Works</a>
-                        <a class="nav-link textGreen noLink navLinkPages" href="./about.html">About</a>
-                        <a class="nav-link textGreen noLink navLinkPages" href="./contact.html">Contact</a>
-                        <a class="nav-link textGreen noLink navLinkPages" href="./solidary.html">Solidary</a>
+                        <a class="navLink" href="./works.html">Works</a>
+                        <a class="navLink" href="./about.html">About</a>
+                        <a class="navLink" href="./contact.html">Contact</a>
+                        <a class="navLink" href="./solidary.html">Solidary</a>
                     </div>
                 </div>
             </div>
@@ -124,58 +124,50 @@
 
     </main>
 
-    <footer class="container-fluid bgGreen">
+    <footer class="container-fluid footerWorks">
 
         <!-- Photo and name -->
-        <div class="meFooterDiv">
-            <img src="../assets/me-round-grey.png" alt="Photo Agustin Braco" class="meRound" title="Photo Agustin Braco">
+        <div class="divFooter">
+            <img src="../assets/me-round-grey.png" alt="Photo Agustin Braco" class="photoFooter" title="Photo Agustin Braco">
             <div>
-                <p class="nameFooter textGrey">Agustín Braco</p>
-                <p class="jobFooter textGrey">Full Stack web developer</p>
+                <p class="nameFooter">Agustín Braco</p>
+                <p class="jobFooter">Full Stack web developer</p>
             </div>
         </div>
 
-        <!-- Home -->
-        <div class="divContactFooter">
+        <!-- Contact -->
+        <div class="figureFooter">
 
             <!-- Line -->
-            <hr class="lineContactGrey">
+            <hr class="lineGrey">
 
             <!-- Circle -->
             <div>
-                <a href="../index.html" class="textContactFooterGrey noLink">Home</a>
+                <a href="../index.html" class="circleGrey">Home</a>
             </div>
 
         </div>
 
         <!-- Solidary -->
-        <div class="divSolidaryFooter">
+        <div class="figureFooter">
 
             <!-- Circle -->
             <div>
-                <a href="./solidary.html" class="textSolidaryFooterGrey noLink">Solidary</a>
+                <a href="./solidary.html" class="circleGrey">Solidary</a>
             </div>
 
             <!-- Line -->
-            <hr class="lineSolidaryGrey">
+            <hr class="lineGrey">
 
         </div>
 
-
         <!-- Bottom -->
-        <div class="container bottomContainer">
-            <div class="row divContainerFooter">
-                <p class="col-4 textGrey">Copyright</p>
-                <p class="col-4 textGrey">Local time</p>
-                <div class="col-4">
-                    <a href="#" class="noLink textGrey linkUpGrey">¡Go up!</a>
-                </div>
-            </div>
+        <div class="container divBottom">
 
-            <div class="row timeContainerFooter">
-                <p class="col-12 textGrey">16:11</p>
-            </div>
-
+            <p>Copyright</p>
+            <p><a href="#" class="linkUp">¡Go up!</a></p>
+            <p>16:11</p>
+            
         </div>
 
     </footer>
