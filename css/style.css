@@ -21,6 +21,172 @@ html {
   background-color: #576F72;
 }
 
+.headerPages .navLink, .headerIndex .navLink {
+  text-align: end;
+  padding: 2rem;
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+.footerPages .divBottom .linkUp, .footerPages .figureFooter .circleGrey, .headerIndex .navLink {
+  text-decoration: none;
+  color: #F0EBE3;
+}
+.footerPages .divBottom .linkUp:hover, .footerPages .figureFooter .circleGrey:hover, .headerIndex .navLink:hover {
+  color: #F0EBE3;
+}
+.footerPages .divBottom .linkUp:focus, .footerPages .figureFooter .circleGrey:focus, .headerIndex .navLink:focus {
+  color: #F0EBE3;
+}
+
+.footerIndex .divBottom .linkUp, .footerIndex .figureFooter .circleGreen, .sectionPages .infoContainer .infoDiv .infoLink, .sectionPages .worksContainer .worksDiv .worksLink, .sectionIndex .circleBig .circleSmall, .headerPages .navLink {
+  text-decoration: none;
+  color: #576F72;
+}
+.footerIndex .divBottom .linkUp:hover, .footerIndex .figureFooter .circleGreen:hover, .sectionPages .infoContainer .infoDiv .infoLink:hover, .sectionPages .worksContainer .worksDiv .worksLink:hover, .sectionIndex .circleBig .circleSmall:hover, .headerPages .navLink:hover {
+  color: #576F72;
+}
+.footerIndex .divBottom .linkUp:focus, .footerIndex .figureFooter .circleGreen:focus, .sectionPages .infoContainer .infoDiv .infoLink:focus, .sectionPages .worksContainer .worksDiv .worksLink:focus, .sectionIndex .circleBig .circleSmall:focus, .headerPages .navLink:focus {
+  color: #576F72;
+}
+
+.footerPages .figureFooter .circleGrey, .footerPages .figureFooter, .footerIndex .figureFooter .circleGreen, .footerIndex .figureFooter, .sectionPages .infoContainer .infoDiv .infoLink, .sectionIndex .circleBig .circleSmall, .sectionIndex .circleBig, .headerIndex .divIndex, .headerIndex .textWelcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footerPages .figureFooter, .footerPages .divFooter, .footerIndex .figureFooter, .footerIndex .divFooter, .headerIndex .gifContainer .gifDiv, .headerIndex .gifContainer {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.sectionPages .infoContainer .infoDiv, .sectionPages .infoContainer, .sectionPages .formContainer .formDiv, .sectionPages .formContainer, .sectionPages .toolsContainer .divTools, .sectionPages .toolsContainer, .sectionPages .worksContainer .worksDiv, .sectionPages .worksContainer {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.footerPages .figureFooter .circleGrey, .sectionIndex .circleBig {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+
+.footerIndex .figureFooter .circleGreen, .sectionIndex .circleBig .circleSmall {
+  width: 11.5rem;
+  height: 11.5rem;
+  border-radius: 50%;
+}
+
+.sectionPages .formContainer .formDiv .inputMessage, .sectionPages .formContainer .formDiv .inputContact {
+  background-color: #E4DCCF;
+  border: 1px solid #E4DCCF;
+  color: #576F72;
+  outline-style: none;
+  width: 100%;
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+  transition: all 0.7s ease;
+}
+
+.sectionPages .formContainer .divButton .buttonSend {
+  background-color: #576F72;
+  border: 1px solid #576F72;
+  color: #E4DCCF;
+  outline-style: none;
+  border-radius: 1.5rem;
+  width: 10rem;
+  font-size: 2rem;
+  height: 5rem;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.headerPages .navLink, .headerIndex .navLink {
+  text-align: end;
+  padding: 2rem;
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+.footerPages .divBottom .linkUp, .footerPages .figureFooter .circleGrey, .headerIndex .navLink {
+  text-decoration: none;
+  color: #F0EBE3;
+}
+.footerPages .divBottom .linkUp:hover, .footerPages .figureFooter .circleGrey:hover, .headerIndex .navLink:hover {
+  color: #F0EBE3;
+}
+.footerPages .divBottom .linkUp:focus, .footerPages .figureFooter .circleGrey:focus, .headerIndex .navLink:focus {
+  color: #F0EBE3;
+}
+
+.footerIndex .divBottom .linkUp, .footerIndex .figureFooter .circleGreen, .sectionPages .infoContainer .infoDiv .infoLink, .sectionPages .worksContainer .worksDiv .worksLink, .sectionIndex .circleBig .circleSmall, .headerPages .navLink {
+  text-decoration: none;
+  color: #576F72;
+}
+.footerIndex .divBottom .linkUp:hover, .footerIndex .figureFooter .circleGreen:hover, .sectionPages .infoContainer .infoDiv .infoLink:hover, .sectionPages .worksContainer .worksDiv .worksLink:hover, .sectionIndex .circleBig .circleSmall:hover, .headerPages .navLink:hover {
+  color: #576F72;
+}
+.footerIndex .divBottom .linkUp:focus, .footerIndex .figureFooter .circleGreen:focus, .sectionPages .infoContainer .infoDiv .infoLink:focus, .sectionPages .worksContainer .worksDiv .worksLink:focus, .sectionIndex .circleBig .circleSmall:focus, .headerPages .navLink:focus {
+  color: #576F72;
+}
+
+.footerPages .figureFooter .circleGrey, .footerPages .figureFooter, .footerIndex .figureFooter .circleGreen, .footerIndex .figureFooter, .sectionPages .infoContainer .infoDiv .infoLink, .sectionIndex .circleBig .circleSmall, .sectionIndex .circleBig, .headerIndex .divIndex, .headerIndex .textWelcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footerPages .figureFooter, .footerPages .divFooter, .footerIndex .figureFooter, .footerIndex .divFooter, .headerIndex .gifContainer .gifDiv, .headerIndex .gifContainer {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.sectionPages .infoContainer .infoDiv, .sectionPages .infoContainer, .sectionPages .formContainer .formDiv, .sectionPages .formContainer, .sectionPages .toolsContainer .divTools, .sectionPages .toolsContainer, .sectionPages .worksContainer .worksDiv, .sectionPages .worksContainer {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.footerPages .figureFooter .circleGrey, .sectionIndex .circleBig {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+
+.footerIndex .figureFooter .circleGreen, .sectionIndex .circleBig .circleSmall {
+  width: 11.5rem;
+  height: 11.5rem;
+  border-radius: 50%;
+}
+
+.sectionPages .formContainer .formDiv .inputMessage, .sectionPages .formContainer .formDiv .inputContact {
+  background-color: #E4DCCF;
+  border: 1px solid #E4DCCF;
+  color: #576F72;
+  outline-style: none;
+  width: 100%;
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+  transition: all 0.7s ease;
+}
+
+.sectionPages .formContainer .divButton .buttonSend {
+  background-color: #576F72;
+  border: 1px solid #576F72;
+  color: #E4DCCF;
+  outline-style: none;
+  border-radius: 1.5rem;
+  width: 10rem;
+  font-size: 2rem;
+  height: 5rem;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
 .headerIndex {
   background-color: #576F72;
   color: #F0EBE3;
@@ -36,36 +202,12 @@ html {
 .headerIndex button:focus {
   box-shadow: none;
 }
-.headerIndex .navLink {
-  text-decoration: none;
-  color: #F0EBE3;
-  text-align: end;
-  padding: 2rem;
-  font-size: 3rem;
-  margin: 2rem;
-}
-.headerIndex .navLink:hover {
-  color: #F0EBE3;
-}
-.headerIndex .navLink:focus {
-  color: #F0EBE3;
-}
 .headerIndex h1 {
   display: none;
 }
 .headerIndex .textWelcome {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   padding: 4rem 0rem;
   font-size: 5.5rem;
-}
-.headerIndex .divIndex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 .headerIndex .divIndex .gifWorld {
   padding: 4rem 0rem;
@@ -98,14 +240,10 @@ html {
   font-size: 1.5rem;
 }
 .headerIndex .gifContainer {
-  display: flex;
-  flex-flow: row nowrap;
   justify-content: space-between;
   padding: 10rem 0rem;
 }
 .headerIndex .gifContainer .gifDiv {
-  display: flex;
-  flex-flow: row nowrap;
   align-items: center;
   margin: 0rem 1rem;
   font-size: 1.5rem;
@@ -134,50 +272,120 @@ html {
 .headerPages button:focus {
   box-shadow: none;
 }
-.headerPages .navLink {
-  text-decoration: none;
-  color: #576F72;
+.headerPages h1 {
+  display: none;
+}
+.headerPages .divHeader {
+  padding: 6rem 1rem;
+  margin: 1rem;
+}
+.headerPages .divHeader .textHeaderLeft {
+  font-size: 3rem;
+  text-align: start;
+  font-weight: bold;
+}
+.headerPages .divHeader .textHeaderRight {
+  font-size: 3rem;
+  text-align: end;
+  font-weight: bold;
+}
+.headerPages .divHeader .textSolidary {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.headerPages .divHeaderContact {
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+.headerPages .divHeaderContact .textContact {
+  font-size: 3rem;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.headerIndex .navLink, .headerPages .navLink {
   text-align: end;
   padding: 2rem;
   font-size: 3rem;
   margin: 2rem;
 }
-.headerPages .navLink:hover {
+
+.footerPages .divBottom .linkUp, .footerPages .figureFooter .circleGrey, .headerIndex .navLink {
+  text-decoration: none;
+  color: #F0EBE3;
+}
+.footerPages .divBottom .linkUp:hover, .footerPages .figureFooter .circleGrey:hover, .headerIndex .navLink:hover {
+  color: #F0EBE3;
+}
+.footerPages .divBottom .linkUp:focus, .footerPages .figureFooter .circleGrey:focus, .headerIndex .navLink:focus {
+  color: #F0EBE3;
+}
+
+.footerIndex .divBottom .linkUp, .footerIndex .figureFooter .circleGreen, .sectionPages .infoContainer .infoDiv .infoLink, .sectionPages .worksContainer .worksDiv .worksLink, .sectionIndex .circleBig .circleSmall, .headerPages .navLink {
+  text-decoration: none;
   color: #576F72;
 }
-.headerPages .navLink:focus {
+.footerIndex .divBottom .linkUp:hover, .footerIndex .figureFooter .circleGreen:hover, .sectionPages .infoContainer .infoDiv .infoLink:hover, .sectionPages .worksContainer .worksDiv .worksLink:hover, .sectionIndex .circleBig .circleSmall:hover, .headerPages .navLink:hover {
   color: #576F72;
 }
-.headerPages h1 {
-  display: none;
+.footerIndex .divBottom .linkUp:focus, .footerIndex .figureFooter .circleGreen:focus, .sectionPages .infoContainer .infoDiv .infoLink:focus, .sectionPages .worksContainer .worksDiv .worksLink:focus, .sectionIndex .circleBig .circleSmall:focus, .headerPages .navLink:focus {
+  color: #576F72;
 }
-.headerPages .divWorkLeft {
-  padding: 6rem 1rem;
-  margin: 1rem;
-}
-.headerPages .divWorkLeft .textWorkLeft {
-  font-size: 3rem;
-  text-align: start;
-  font-weight: bold;
-}
-.headerPages .divWorkRight {
-  padding: 6rem 1rem;
-  margin: 1rem;
-}
-.headerPages .divWorkRight .textWorkRight {
-  font-size: 3rem;
-  text-align: end;
-  font-weight: bold;
-}
-.headerPages .divTextContact {
+
+.footerPages .figureFooter .circleGrey, .footerPages .figureFooter, .footerIndex .figureFooter .circleGreen, .footerIndex .figureFooter, .sectionPages .infoContainer .infoDiv .infoLink, .sectionIndex .circleBig .circleSmall, .sectionIndex .circleBig, .headerIndex .textWelcome, .headerIndex .divIndex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding-top: 8rem;
-  padding-bottom: 6rem;
 }
-.headerPages .divTextContact .textContact {
-  font-size: 3rem;
-  text-decoration: underline;
-  font-weight: bold;
+
+.footerPages .figureFooter, .footerPages .divFooter, .footerIndex .figureFooter, .footerIndex .divFooter, .headerIndex .gifContainer, .headerIndex .gifContainer .gifDiv {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.sectionPages .infoContainer .infoDiv, .sectionPages .infoContainer, .sectionPages .formContainer .formDiv, .sectionPages .formContainer, .sectionPages .toolsContainer .divTools, .sectionPages .toolsContainer, .sectionPages .worksContainer .worksDiv, .sectionPages .worksContainer {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.footerPages .figureFooter .circleGrey, .sectionIndex .circleBig {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+
+.footerIndex .figureFooter .circleGreen, .sectionIndex .circleBig .circleSmall {
+  width: 11.5rem;
+  height: 11.5rem;
+  border-radius: 50%;
+}
+
+.sectionPages .formContainer .formDiv .inputMessage, .sectionPages .formContainer .formDiv .inputContact {
+  background-color: #E4DCCF;
+  border: 1px solid #E4DCCF;
+  color: #576F72;
+  outline-style: none;
+  width: 100%;
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+  transition: all 0.7s ease;
+}
+
+.sectionPages .formContainer .divButton .buttonSend {
+  background-color: #576F72;
+  border: 1px solid #576F72;
+  color: #E4DCCF;
+  outline-style: none;
+  border-radius: 1.5rem;
+  width: 10rem;
+  font-size: 2rem;
+  height: 5rem;
+  font-weight: 400;
+  transition: all 0.3s ease;
 }
 
 .sectionIndex {
@@ -209,36 +417,14 @@ html {
   text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.54);
 }
 .sectionIndex .circleBig {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   background-color: #F0EBE3;
-  border-radius: 50%;
-  width: 12rem;
-  height: 12rem;
   margin: auto;
   filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.54));
 }
 .sectionIndex .circleBig .circleSmall {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-decoration: none;
-  color: #576F72;
-  border-radius: 50%;
-  width: 11.5rem;
-  height: 11.5rem;
   border: 0.3rem solid #576F72;
   font-size: 2rem;
   font-weight: bold;
-}
-.sectionIndex .circleBig .circleSmall:hover {
-  color: #576F72;
-}
-.sectionIndex .circleBig .circleSmall:focus {
-  color: #576F72;
 }
 
 .roundEndGreen {
@@ -256,19 +442,230 @@ html {
   -moz-box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
 }
 
+.sectionPages {
+  background-color: #F0EBE3;
+  color: #576F72;
+  margin-top: -1rem;
+}
+.sectionPages h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+.sectionPages h4 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 2rem;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.sectionPages .worksContainer .worksDiv {
+  text-align: center;
+}
+.sectionPages .worksContainer .worksDiv .worksLink {
+  font-size: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+.sectionPages .worksContainer .worksDiv .worksImage {
+  width: 15rem;
+  padding-bottom: 8rem;
+}
+.sectionPages .toolsContainer .divTools {
+  text-align: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+.sectionPages .toolsContainer .divTools .toolsImage {
+  width: 15rem;
+}
+.sectionPages .toolsContainer .divTools .toolsText {
+  font-size: 2.1rem;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+.sectionPages .map {
+  padding-bottom: 5rem;
+}
+.sectionPages .formContainer {
+  padding: 0rem 2rem 6rem 2rem;
+}
+.sectionPages .formContainer .formDiv {
+  padding: 3rem 0rem;
+}
+.sectionPages .formContainer .formDiv .labelContact {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+.sectionPages .formContainer .formDiv .inputContact {
+  height: 5rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.sectionPages .formContainer .formDiv .inputContact:focus {
+  background-color: #576F72;
+  color: #F0EBE3;
+}
+.sectionPages .formContainer .formDiv .inputContact:focus::placeholder {
+  color: #E4DCCF;
+}
+.sectionPages .formContainer .formDiv .inputMessage {
+  height: 15rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  resize: none;
+}
+.sectionPages .formContainer .formDiv .inputMessage:focus {
+  background-color: #576F72;
+  color: #F0EBE3;
+}
+.sectionPages .formContainer .formDiv .inputMessage:focus::placeholder {
+  color: #E4DCCF;
+}
+.sectionPages .formContainer .divButton {
+  text-align: end;
+  filter: drop-shadow(0px 4px 1px rgba(0, 0, 0, 0.54));
+}
+.sectionPages .gifCode {
+  display: none;
+}
+.sectionPages .infoContainer {
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10rem;
+}
+.sectionPages .infoContainer .infoDiv {
+  padding: 5rem 1rem;
+}
+.sectionPages .infoContainer .infoDiv .infoText {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.sectionPages .infoContainer .infoDiv .infoLink {
+  background-color: #E4DCCF;
+  border-radius: 2rem;
+  width: 30rem;
+  height: 8rem;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.roundEndGrey {
+  background-color: #F0EBE3;
+  border-radius: 50%;
+  width: 100%;
+  height: 10rem;
+  margin-top: -5.4rem;
+  margin-bottom: 1rem;
+  border: 0.1rem solid #F0EBE3;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
+  -webkit-box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
+  -moz-box-shadow: 0px 5px 9px -4px rgba(41, 41, 41, 0.71);
+}
+
+.headerIndex .navLink, .headerPages .navLink {
+  text-align: end;
+  padding: 2rem;
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+.footerPages .divBottom .linkUp, .footerPages .figureFooter .circleGrey, .headerIndex .navLink {
+  text-decoration: none;
+  color: #F0EBE3;
+}
+.footerPages .divBottom .linkUp:hover, .footerPages .figureFooter .circleGrey:hover, .headerIndex .navLink:hover {
+  color: #F0EBE3;
+}
+.footerPages .divBottom .linkUp:focus, .footerPages .figureFooter .circleGrey:focus, .headerIndex .navLink:focus {
+  color: #F0EBE3;
+}
+
+.footerIndex .divBottom .linkUp, .footerIndex .figureFooter .circleGreen, .headerPages .navLink, .sectionIndex .circleBig .circleSmall, .sectionPages .worksContainer .worksDiv .worksLink, .sectionPages .infoContainer .infoDiv .infoLink {
+  text-decoration: none;
+  color: #576F72;
+}
+.footerIndex .divBottom .linkUp:hover, .footerIndex .figureFooter .circleGreen:hover, .headerPages .navLink:hover, .sectionIndex .circleBig .circleSmall:hover, .sectionPages .worksContainer .worksDiv .worksLink:hover, .sectionPages .infoContainer .infoDiv .infoLink:hover {
+  color: #576F72;
+}
+.footerIndex .divBottom .linkUp:focus, .footerIndex .figureFooter .circleGreen:focus, .headerPages .navLink:focus, .sectionIndex .circleBig .circleSmall:focus, .sectionPages .worksContainer .worksDiv .worksLink:focus, .sectionPages .infoContainer .infoDiv .infoLink:focus {
+  color: #576F72;
+}
+
+.footerPages .figureFooter .circleGrey, .footerPages .figureFooter, .footerIndex .figureFooter .circleGreen, .footerIndex .figureFooter, .headerIndex .textWelcome, .headerIndex .divIndex, .sectionIndex .circleBig, .sectionIndex .circleBig .circleSmall, .sectionPages .infoContainer .infoDiv .infoLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footerPages .figureFooter, .footerPages .divFooter, .footerIndex .figureFooter, .footerIndex .divFooter, .headerIndex .gifContainer, .headerIndex .gifContainer .gifDiv {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.sectionPages .worksContainer, .sectionPages .worksContainer .worksDiv, .sectionPages .toolsContainer, .sectionPages .toolsContainer .divTools, .sectionPages .formContainer, .sectionPages .formContainer .formDiv, .sectionPages .infoContainer, .sectionPages .infoContainer .infoDiv {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.footerPages .figureFooter .circleGrey, .sectionIndex .circleBig {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+
+.footerIndex .figureFooter .circleGreen, .sectionIndex .circleBig .circleSmall {
+  width: 11.5rem;
+  height: 11.5rem;
+  border-radius: 50%;
+}
+
+.sectionPages .formContainer .formDiv .inputContact, .sectionPages .formContainer .formDiv .inputMessage {
+  background-color: #E4DCCF;
+  border: 1px solid #E4DCCF;
+  color: #576F72;
+  outline-style: none;
+  width: 100%;
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+  transition: all 0.7s ease;
+}
+
+.sectionPages .formContainer .divButton .buttonSend {
+  background-color: #576F72;
+  border: 1px solid #576F72;
+  color: #E4DCCF;
+  outline-style: none;
+  border-radius: 1.5rem;
+  width: 10rem;
+  font-size: 2rem;
+  height: 5rem;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
 .footerIndex {
   background-color: #F0EBE3;
   color: #576F72;
 }
 .footerIndex .divFooter {
-  display: flex;
-  flex-flow: row nowrap;
   align-items: center;
   justify-content: left;
   padding: 3rem 0rem 1rem 1rem;
 }
 .footerIndex .divFooter .photoFooter {
   max-width: 12rem;
+  transition: all 0.5s ease;
+}
+.footerIndex .divFooter .photoFooter:hover {
+  transform: scale(1.5);
 }
 .footerIndex .divFooter .nameFooter {
   margin-left: 2rem;
@@ -280,12 +677,6 @@ html {
   font-size: 1.8rem;
 }
 .footerIndex .figureFooter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  flex-flow: row nowrap;
   padding: 1rem 0rem;
   margin: 0rem 2rem;
 }
@@ -298,26 +689,11 @@ html {
   border: none;
 }
 .footerIndex .figureFooter .circleGreen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-decoration: none;
-  color: #576F72;
-  width: 12rem;
-  height: 12rem;
-  border-radius: 50%;
-  border: 0.3rem solid #576F72;
   background-color: #F0EBE3;
   color: #576F72;
+  border: 0.3rem solid #576F72;
   font-size: 2rem;
   font-weight: bold;
-}
-.footerIndex .figureFooter .circleGreen:hover {
-  color: #576F72;
-}
-.footerIndex .figureFooter .circleGreen:focus {
-  color: #576F72;
 }
 .footerIndex .divBottom {
   display: flex;
@@ -327,51 +703,36 @@ html {
   font-size: 1.6rem;
   padding: 3rem 1rem 2rem 1rem;
 }
-.footerIndex .divBottom .linkUp {
-  text-decoration: none;
-  color: #576F72;
-}
-.footerIndex .divBottom .linkUp:hover {
-  color: #576F72;
-}
-.footerIndex .divBottom .linkUp:focus {
-  color: #576F72;
-}
-
-.footerWorks {
+.footerPages {
   background-color: #576F72;
   color: #F0EBE3;
 }
-.footerWorks .divFooter {
-  display: flex;
-  flex-flow: row nowrap;
+.footerPages .divFooter {
   align-items: center;
   justify-content: left;
   padding: 3rem 0rem 1rem 1rem;
 }
-.footerWorks .divFooter .photoFooter {
+.footerPages .divFooter .photoFooter {
   max-width: 12rem;
+  transition: all 0.5s ease;
 }
-.footerWorks .divFooter .nameFooter {
+.footerPages .divFooter .photoFooter:hover {
+  transform: scale(1.5);
+}
+.footerPages .divFooter .nameFooter {
   margin-left: 2rem;
   font-size: 2rem;
   font-weight: bold;
 }
-.footerWorks .divFooter .jobFooter {
+.footerPages .divFooter .jobFooter {
   margin-left: 1rem;
   font-size: 1.8rem;
 }
-.footerWorks .figureFooter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  flex-flow: row nowrap;
+.footerPages .figureFooter {
   padding: 1rem 0rem;
   margin: 0rem 2rem;
 }
-.footerWorks .figureFooter .lineGrey {
+.footerPages .figureFooter .lineGrey {
   background: #F0EBE3;
   height: 0.3rem;
   width: 80%;
@@ -379,45 +740,20 @@ html {
   opacity: 100%;
   border: none;
 }
-.footerWorks .figureFooter .circleGrey {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-decoration: none;
-  color: #F0EBE3;
-  width: 12rem;
-  height: 12rem;
-  border-radius: 50%;
+.footerPages .figureFooter .circleGrey {
   border: 0.3rem solid #F0EBE3;
   background-color: #576F72;
   color: #F0EBE3;
   font-size: 2rem;
   font-weight: bold;
 }
-.footerWorks .figureFooter .circleGrey:hover {
-  color: #F0EBE3;
-}
-.footerWorks .figureFooter .circleGrey:focus {
-  color: #F0EBE3;
-}
-.footerWorks .divBottom {
+.footerPages .divBottom {
   display: flex;
   justify-content: space-between;
   background-color: #576F72;
   color: #F0EBE3;
   font-size: 1.6rem;
   padding: 3rem 1rem 2rem 1rem;
-}
-.footerWorks .divBottom .linkUp {
-  text-decoration: none;
-  color: #F0EBE3;
-}
-.footerWorks .divBottom .linkUp:hover {
-  color: #F0EBE3;
-}
-.footerWorks .divBottom .linkUp:focus {
-  color: #F0EBE3;
 }
 
 /*# sourceMappingURL=style.css.map */

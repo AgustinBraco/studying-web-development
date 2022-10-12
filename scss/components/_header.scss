@@ -1,5 +1,5 @@
 @import '../base/list';
-@import '../base/mixin';
+@import '../base/extend';
 
 // INDEX
 .headerIndex {
@@ -21,8 +21,8 @@
     }
 
     .navLink {
-        @include linkGrey;
-        @include navLink;
+        @extend %linkGrey;
+        @extend %navLink;
     }
 
     h1 {
@@ -30,13 +30,13 @@
     }
 
     .textWelcome {
-        @include flexCenter;
+        @extend %flexCenter;
         padding: 4rem 0rem;
         font-size: 5.5rem;
     }
 
     .divIndex {
-        @include flexCenter;
+        @extend %flexCenter;
 
         .gifWorld {
             padding: 4rem 0rem;
@@ -74,12 +74,12 @@
     }
 
     .gifContainer {
-        @include flexRow;
+        @extend %flexRow;
         justify-content: space-between;
         padding: 10rem 0rem;
 
         .gifDiv {
-            @include flexRow;
+            @extend %flexRow;
             align-items: center;
             margin: 0rem 1rem;
             font-size: 1.5rem;
@@ -93,10 +93,8 @@
                 max-width: 4rem;
                 margin-left: 1rem;
             }
-            
         }
     }
-
 }
 
 
@@ -120,37 +118,38 @@
     }
 
     .navLink {
-        @include linkGreen;
-        @include navLink;
+        @extend %linkGreen;
+        @extend %navLink;
     }
 
     h1 {
         display: none;
     }
 
-    .divWorkLeft {
+    .divHeader {
         padding: 6rem 1rem;
         margin: 1rem;
 
-        .textWorkLeft {
+        .textHeaderLeft {
             font-size: 3rem;
             text-align: start;
             font-weight: bold;
         }
-    }
 
-    .divWorkRight {
-        padding: 6rem 1rem;
-        margin: 1rem;
-
-        .textWorkRight {
+        .textHeaderRight {
             font-size: 3rem;
             text-align: end;
             font-weight: bold;
         }
+
+        .textSolidary {
+            font-size: 2rem;
+            text-align: center;
+            font-weight: bold;
+        }
     }
     
-    .divTextContact {
+    .divHeaderContact {
         text-align: center;
         padding-top: 8rem;
         padding-bottom: 6rem;

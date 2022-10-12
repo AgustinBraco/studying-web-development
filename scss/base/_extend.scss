@@ -1,0 +1,90 @@
+// Links
+%navLink {
+    text-align: end;
+    padding: 2rem;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+%linkGrey {
+    text-decoration: none;
+    color: nth($color,2);
+
+    &:hover {
+        color: nth($color,2);
+    }
+
+    &:focus {
+        color: nth($color,2);
+    }
+}
+
+%linkGreen {
+    text-decoration: none;
+    color: nth($color,1);
+
+    &:hover {
+        color: nth($color,1);
+    }
+
+    &:focus {
+        color: nth($color,1);
+    }
+}
+
+// Flex
+%flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+%flexRow {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+%flexColumn {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+// Circles
+%circleBig {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+
+%circleSmall {
+    width: 11.5rem;
+    height: 11.5rem;
+    border-radius: 50%;
+}
+
+// Inputs
+%inputContact {
+    background-color: nth($color,3);
+    border: 1px solid nth($color,3);
+    color: nth($color,1);
+    outline-style: none;
+    width: 100%;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    transition: all 0.7s ease;
+}
+
+%buttonContact {
+    background-color: nth($color,1);
+    border: 1px solid nth($color,1);
+    color: nth($color,3);
+    outline-style: none;
+    border-radius: 1.5rem;
+    width: 10rem;
+    font-size: 2rem;
+    height: 5rem;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}

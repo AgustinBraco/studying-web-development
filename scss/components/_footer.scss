@@ -1,5 +1,5 @@
 @import '../base/list';
-@import '../base/mixin';
+@import '../base/extend';
 
 // INDEX
 .footerIndex {
@@ -7,13 +7,18 @@
     color: nth($color,1);
 
     .divFooter {
-        @include flexRow;
+        @extend %flexRow;
         align-items: center;
         justify-content: left;
         padding: 3rem 0rem 1rem 1rem;
 
         .photoFooter {
             max-width: 12rem;
+            transition: all 0.5s ease;
+
+            &:hover {
+                transform: scale(1.5);
+            }
         }
 
         .nameFooter {
@@ -29,8 +34,8 @@
     }
 
     .figureFooter {
-        @include flexCenter;
-        @include flexRow;
+        @extend %flexCenter;
+        @extend %flexRow;
         padding: 1rem 0rem;
         margin: 0rem 2rem;
 
@@ -44,14 +49,12 @@
         }
 
         .circleGreen {
-            @include flexCenter;
-            @include linkGreen;
-            width: 12rem;
-            height: 12rem;
-            border-radius: 50%;
-            border: 0.3rem solid #576F72;
+            @extend %flexCenter;
+            @extend %linkGreen;
+            @extend %circleSmall;
             background-color: nth($color,2);
             color: nth($color,1);
+            border: 0.3rem solid nth($color,1);
             font-size: 2rem;
             font-weight: bold;
         }
@@ -66,25 +69,30 @@
         padding: 3rem 1rem 2rem 1rem;
 
         .linkUp {
-            @include linkGreen;
+            @extend %linkGreen;
         }
     }
 }
 
 
-// WORKS & ABOUT
-.footerWorks {
+// PAGES
+.footerPages {
     background-color: nth($color,1);
     color: nth($color,2);
 
     .divFooter {
-        @include flexRow;
+        @extend %flexRow;
         align-items: center;
         justify-content: left;
         padding: 3rem 0rem 1rem 1rem;
 
         .photoFooter {
             max-width: 12rem;
+            transition: all 0.5s ease;
+
+            &:hover {
+                transform: scale(1.5);
+            }
         }
 
         .nameFooter {
@@ -100,8 +108,8 @@
     }
 
     .figureFooter {
-        @include flexCenter;
-        @include flexRow;
+        @extend %flexCenter;
+        @extend %flexRow;
         padding: 1rem 0rem;
         margin: 0rem 2rem;
 
@@ -115,12 +123,10 @@
         }
 
         .circleGrey {
-            @include flexCenter;
-            @include linkGrey;
-            width: 12rem;
-            height: 12rem;
-            border-radius: 50%;
-            border: 0.3rem solid #F0EBE3;
+            @extend %flexCenter;
+            @extend %linkGrey;
+            @extend %circleBig;
+            border: 0.3rem solid nth($color,2);
             background-color: nth($color,1);
             color: nth($color,2);
             font-size: 2rem;
@@ -137,15 +143,7 @@
         padding: 3rem 1rem 2rem 1rem;
 
         .linkUp {
-            @include linkGrey;
+            @extend %linkGrey;
         }
     }
 }
-
-
-
-// CONTACT
-
-
-
-// SOLIDARY
