@@ -348,9 +348,12 @@ html {
     font-size: 9rem;
   }
 }
+.headerIndex .divIndex {
+  padding: 5rem 0rem;
+}
 @media screen and (min-width: 670px) {
   .headerIndex .divIndex {
-    padding: 5rem 0rem;
+    padding: 1rem 0rem;
   }
 }
 .headerIndex .divIndex .gifWorld {
@@ -537,12 +540,12 @@ html {
 }
 @media screen and (min-width: 670px) {
   .headerPages .divHeader {
-    padding: 8rem 1rem;
+    padding: 12rem 1rem;
   }
 }
 @media screen and (min-width: 992px) {
   .headerPages .divHeader {
-    padding: 7rem 1rem;
+    padding: 10rem 1rem;
   }
 }
 .headerPages .divHeader .textHeaderLeft {
@@ -569,7 +572,7 @@ html {
 }
 @media screen and (min-width: 670px) {
   .headerPages .divHeader .textHeaderRight {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 @media screen and (min-width: 992px) {
@@ -603,6 +606,11 @@ html {
 @media screen and (min-width: 670px) {
   .headerPages .divHeaderContact {
     padding: 20rem 0rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerPages .divHeaderContact {
+    padding: 22rem 0rem;
   }
 }
 .headerPages .divHeaderContact .textContact {

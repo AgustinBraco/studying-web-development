@@ -82,9 +82,10 @@
 
     .divIndex {
         @extend %flexCenter;
+        padding: 5rem 0rem;
 
         @include responsive(md) {
-            padding: 5rem 0rem;
+            padding: 1rem 0rem;
         }
 
         .gifWorld {
@@ -277,11 +278,11 @@
         margin: 1rem;
 
         @include responsive(md) {
-            padding: 8rem 1rem;
+            padding: 12rem 1rem;
         }
         
         @include responsive(lg) {
-            padding: 7rem 1rem;
+            padding: 10rem 1rem;
         }
 
         .textHeaderLeft {
@@ -306,7 +307,7 @@
             font-weight: bold;
 
             @include responsive(md) {
-                font-size: 5rem;
+                font-size: 4rem;
             }
                 
             @include responsive(lg) {
@@ -339,6 +340,10 @@
 
         @include responsive(md) {
             padding: 20rem 0rem;
+        }
+
+        @include responsive(lg) {
+            padding: 22rem 0rem;
         }
 
         .textContact {
