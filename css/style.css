@@ -353,7 +353,12 @@ html {
 }
 @media screen and (min-width: 670px) {
   .headerIndex .divIndex {
-    padding: 1rem 0rem;
+    padding: 4rem 0rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerIndex .divIndex {
+    padding: 0rem;
   }
 }
 .headerIndex .divIndex .gifWorld {

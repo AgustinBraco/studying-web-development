@@ -85,7 +85,11 @@
         padding: 5rem 0rem;
 
         @include responsive(md) {
-            padding: 1rem 0rem;
+            padding: 4rem 0rem;
+        }
+
+        @include responsive(lg) {
+            padding: 0rem;
         }
 
         .gifWorld {
