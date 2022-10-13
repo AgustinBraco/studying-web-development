@@ -57,49 +57,95 @@ html {
   text-align: center;
 }
 
-.footerPages .figureFooter, .footerPages .divFooter, .footerIndex .figureFooter, .footerIndex .divFooter, .headerIndex .gifContainer .gifDiv, .headerIndex .gifContainer {
+.footerPages .figureFooter, .footerPages .divFooter, .footerIndex .figureFooter, .footerIndex .divFooter, .sectionPages .contactContainer, .headerIndex .gifContainer .gifDiv, .headerIndex .gifContainer {
   display: flex;
   flex-flow: row nowrap;
 }
 
-.sectionPages .infoContainer .infoDiv, .sectionPages .infoContainer, .sectionPages .formContainer .formDiv, .sectionPages .formContainer, .sectionPages .toolsContainer .divTools, .sectionPages .toolsContainer, .sectionPages .worksContainer .worksDiv, .sectionPages .worksContainer {
+.sectionPages .infoContainer .infoDiv, .sectionPages .infoContainer, .sectionPages .contactContainer .formContainer .formDiv, .sectionPages .contactContainer .formContainer, .sectionPages .toolsContainer .divTools, .sectionPages .toolsContainer, .sectionPages .worksContainer .worksDiv, .sectionPages .worksContainer {
   display: flex;
   flex-flow: column nowrap;
 }
 
-.footerPages .figureFooter .circleGrey, .sectionIndex .circleBig {
+.sectionIndex .circleBig {
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
 }
+@media screen and (min-width: 670px) {
+  .sectionIndex .circleBig {
+    width: 18rem;
+    height: 18rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionIndex .circleBig {
+    width: 22rem;
+    height: 22rem;
+  }
+}
 
-.footerIndex .figureFooter .circleGreen, .sectionIndex .circleBig .circleSmall {
+.sectionIndex .circleBig .circleSmall {
   width: 11.5rem;
   height: 11.5rem;
   border-radius: 50%;
 }
+@media screen and (min-width: 670px) {
+  .sectionIndex .circleBig .circleSmall {
+    width: 17rem;
+    height: 17rem;
+    border: 0.4rem solid #576F72;
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionIndex .circleBig .circleSmall {
+    width: 21rem;
+    height: 21rem;
+    border: 0.5rem solid #576F72;
+    font-size: 3.5rem;
+    transition: all 0.6s ease;
+  }
+}
 
-.sectionPages .formContainer .formDiv .inputMessage, .sectionPages .formContainer .formDiv .inputContact {
+.footerPages .figureFooter .circleGrey, .footerIndex .figureFooter .circleGreen {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+@media screen and (min-width: 670px) {
+  .footerPages .figureFooter .circleGrey, .footerIndex .figureFooter .circleGreen {
+    width: 18rem;
+    height: 18rem;
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footerPages .figureFooter .circleGrey, .footerIndex .figureFooter .circleGreen {
+    width: 22rem;
+    height: 22rem;
+    font-size: 4rem;
+  }
+}
+
+.sectionPages .contactContainer .formContainer .formDiv .inputMessage, .sectionPages .contactContainer .formContainer .formDiv .inputContact {
   background-color: #E4DCCF;
   border: 1px solid #E4DCCF;
   color: #576F72;
   outline-style: none;
   width: 100%;
   border-radius: 1.5rem;
-  font-size: 1.5rem;
   font-weight: 100;
   transition: all 0.7s ease;
 }
 
-.sectionPages .formContainer .divButton .buttonSend {
+.sectionPages .contactContainer .formContainer .divButton .buttonSend {
   background-color: #576F72;
   border: 1px solid #576F72;
   color: #E4DCCF;
   outline-style: none;
   border-radius: 1.5rem;
-  width: 10rem;
-  font-size: 2rem;
-  height: 5rem;
   font-weight: 400;
   transition: all 0.3s ease;
 }
@@ -140,49 +186,95 @@ html {
   text-align: center;
 }
 
-.footerPages .figureFooter, .footerPages .divFooter, .footerIndex .figureFooter, .footerIndex .divFooter, .headerIndex .gifContainer .gifDiv, .headerIndex .gifContainer {
+.footerPages .figureFooter, .footerPages .divFooter, .footerIndex .figureFooter, .footerIndex .divFooter, .sectionPages .contactContainer, .headerIndex .gifContainer .gifDiv, .headerIndex .gifContainer {
   display: flex;
   flex-flow: row nowrap;
 }
 
-.sectionPages .infoContainer .infoDiv, .sectionPages .infoContainer, .sectionPages .formContainer .formDiv, .sectionPages .formContainer, .sectionPages .toolsContainer .divTools, .sectionPages .toolsContainer, .sectionPages .worksContainer .worksDiv, .sectionPages .worksContainer {
+.sectionPages .infoContainer .infoDiv, .sectionPages .infoContainer, .sectionPages .contactContainer .formContainer .formDiv, .sectionPages .contactContainer .formContainer, .sectionPages .toolsContainer .divTools, .sectionPages .toolsContainer, .sectionPages .worksContainer .worksDiv, .sectionPages .worksContainer {
   display: flex;
   flex-flow: column nowrap;
 }
 
-.footerPages .figureFooter .circleGrey, .sectionIndex .circleBig {
+.sectionIndex .circleBig {
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
 }
+@media screen and (min-width: 670px) {
+  .sectionIndex .circleBig {
+    width: 18rem;
+    height: 18rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionIndex .circleBig {
+    width: 22rem;
+    height: 22rem;
+  }
+}
 
-.footerIndex .figureFooter .circleGreen, .sectionIndex .circleBig .circleSmall {
+.sectionIndex .circleBig .circleSmall {
   width: 11.5rem;
   height: 11.5rem;
   border-radius: 50%;
 }
+@media screen and (min-width: 670px) {
+  .sectionIndex .circleBig .circleSmall {
+    width: 17rem;
+    height: 17rem;
+    border: 0.4rem solid #576F72;
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionIndex .circleBig .circleSmall {
+    width: 21rem;
+    height: 21rem;
+    border: 0.5rem solid #576F72;
+    font-size: 3.5rem;
+    transition: all 0.6s ease;
+  }
+}
 
-.sectionPages .formContainer .formDiv .inputMessage, .sectionPages .formContainer .formDiv .inputContact {
+.footerPages .figureFooter .circleGrey, .footerIndex .figureFooter .circleGreen {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+@media screen and (min-width: 670px) {
+  .footerPages .figureFooter .circleGrey, .footerIndex .figureFooter .circleGreen {
+    width: 18rem;
+    height: 18rem;
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footerPages .figureFooter .circleGrey, .footerIndex .figureFooter .circleGreen {
+    width: 22rem;
+    height: 22rem;
+    font-size: 4rem;
+  }
+}
+
+.sectionPages .contactContainer .formContainer .formDiv .inputMessage, .sectionPages .contactContainer .formContainer .formDiv .inputContact {
   background-color: #E4DCCF;
   border: 1px solid #E4DCCF;
   color: #576F72;
   outline-style: none;
   width: 100%;
   border-radius: 1.5rem;
-  font-size: 1.5rem;
   font-weight: 100;
   transition: all 0.7s ease;
 }
 
-.sectionPages .formContainer .divButton .buttonSend {
+.sectionPages .contactContainer .formContainer .divButton .buttonSend {
   background-color: #576F72;
   border: 1px solid #576F72;
   color: #E4DCCF;
   outline-style: none;
   border-radius: 1.5rem;
-  width: 10rem;
-  font-size: 2rem;
-  height: 5rem;
   font-weight: 400;
   transition: all 0.3s ease;
 }
@@ -191,8 +283,23 @@ html {
   background-color: #576F72;
   color: #F0EBE3;
 }
-.headerIndex .logoIndex {
+.headerIndex .logoHeader {
   width: 3.5rem;
+}
+@media screen and (min-width: 670px) {
+  .headerIndex .logoHeader {
+    width: 7rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerIndex .logoHeader {
+    width: 8rem;
+    transition: all 0.5s ease;
+  }
+  .headerIndex .logoHeader:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0px 6px 3px rgba(0, 0, 0, 0.54));
+  }
 }
 .headerIndex button {
   background-color: #576F72;
@@ -202,6 +309,28 @@ html {
 .headerIndex button:focus {
   box-shadow: none;
 }
+@media screen and (min-width: 992px) {
+  .headerIndex .navDiv {
+    display: flex;
+    justify-content: end;
+  }
+}
+@media screen and (min-width: 670px) {
+  .headerIndex .navLink {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerIndex .navLink {
+    transition: all 0.5s ease;
+    font-weight: normal;
+    padding: 0.5rem;
+  }
+  .headerIndex .navLink:hover {
+    transform: scale(1.3);
+    text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.54);
+  }
+}
 .headerIndex h1 {
   display: none;
 }
@@ -209,15 +338,50 @@ html {
   padding: 4rem 0rem;
   font-size: 5.5rem;
 }
+@media screen and (min-width: 670px) {
+  .headerIndex .textWelcome {
+    font-size: 7.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerIndex .textWelcome {
+    font-size: 9rem;
+  }
+}
+@media screen and (min-width: 670px) {
+  .headerIndex .divIndex {
+    padding: 5rem 0rem;
+  }
+}
 .headerIndex .divIndex .gifWorld {
   padding: 4rem 0rem;
   mix-blend-mode: multiply;
   width: 20rem;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.498));
 }
+@media screen and (min-width: 670px) {
+  .headerIndex .divIndex .gifWorld {
+    width: 30rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerIndex .divIndex .gifWorld {
+    width: 35rem;
+  }
+}
 .headerIndex .divIndex .textLanguage {
   padding-right: 2rem;
   font-size: 2.2rem;
+}
+@media screen and (min-width: 670px) {
+  .headerIndex .divIndex .textLanguage {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerIndex .divIndex .textLanguage {
+    font-size: 3.6rem;
+  }
 }
 .headerIndex .divIndex .selectIndex {
   background-color: #F0EBE3;
@@ -233,11 +397,35 @@ html {
   -webkit-box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.58);
   -moz-box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.58);
 }
+@media screen and (min-width: 670px) {
+  .headerIndex .divIndex .selectIndex {
+    height: 3.5rem;
+    width: 11rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerIndex .divIndex .selectIndex {
+    height: 4.3rem;
+    width: 15rem;
+    font-size: 3rem;
+  }
+}
 .headerIndex .divIndex .selectIndex option {
   background-color: #F0EBE3;
   height: 3rem;
   width: 10rem;
   font-size: 1.5rem;
+}
+@media screen and (min-width: 670px) {
+  .headerIndex .divIndex .selectIndex option {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerIndex .divIndex .selectIndex option {
+    font-size: 2.5rem;
+  }
 }
 .headerIndex .gifContainer {
   justify-content: space-between;
@@ -248,21 +436,67 @@ html {
   margin: 0rem 1rem;
   font-size: 1.5rem;
 }
+@media screen and (min-width: 670px) {
+  .headerIndex .gifContainer .gifDiv {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerIndex .gifContainer .gifDiv {
+    padding-top: 2rem;
+    font-size: 2.8rem;
+  }
+}
 .headerIndex .gifContainer .gifDiv .gifLocation {
   max-width: 4rem;
   margin-right: 0.5rem;
 }
+@media screen and (min-width: 670px) {
+  .headerIndex .gifContainer .gifDiv .gifLocation {
+    max-width: 8rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerIndex .gifContainer .gifDiv .gifLocation {
+    max-width: 10rem;
+  }
+}
 .headerIndex .gifContainer .gifDiv .gifDeveloper {
   max-width: 4rem;
   margin-left: 1rem;
+}
+@media screen and (min-width: 670px) {
+  .headerIndex .gifContainer .gifDiv .gifDeveloper {
+    max-width: 8rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerIndex .gifContainer .gifDiv .gifDeveloper {
+    max-width: 10rem;
+  }
 }
 
 .headerPages {
   background-color: #F0EBE3;
   color: #576F72;
 }
-.headerPages .logoIndex {
+.headerPages .logoHeader {
   width: 3.5rem;
+}
+@media screen and (min-width: 670px) {
+  .headerPages .logoHeader {
+    width: 7rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerPages .logoHeader {
+    width: 8rem;
+    transition: all 0.5s ease;
+  }
+  .headerPages .logoHeader:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.54));
+  }
 }
 .headerPages button {
   background-color: #F0EBE3;
@@ -272,37 +506,120 @@ html {
 .headerPages button:focus {
   box-shadow: none;
 }
+@media screen and (min-width: 992px) {
+  .headerPages .navDiv {
+    display: flex;
+    justify-content: end;
+  }
+}
+@media screen and (min-width: 670px) {
+  .headerPages .navLink {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerPages .navLink {
+    transition: all 0.5s ease;
+    font-weight: normal;
+    padding: 0.5rem;
+  }
+  .headerPages .navLink:hover {
+    transform: scale(1.3);
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.269);
+  }
+}
 .headerPages h1 {
   display: none;
 }
 .headerPages .divHeader {
-  padding: 6rem 1rem;
+  padding: 10rem 1rem;
   margin: 1rem;
+}
+@media screen and (min-width: 670px) {
+  .headerPages .divHeader {
+    padding: 8rem 1rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerPages .divHeader {
+    padding: 7rem 1rem;
+  }
 }
 .headerPages .divHeader .textHeaderLeft {
   font-size: 3rem;
   text-align: start;
   font-weight: bold;
 }
+@media screen and (min-width: 670px) {
+  .headerPages .divHeader .textHeaderLeft {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerPages .divHeader .textHeaderLeft {
+    font-size: 8rem;
+    width: 80%;
+    text-shadow: 4px 0px 2px rgba(0, 0, 0, 0.53);
+  }
+}
 .headerPages .divHeader .textHeaderRight {
   font-size: 3rem;
   text-align: end;
   font-weight: bold;
+}
+@media screen and (min-width: 670px) {
+  .headerPages .divHeader .textHeaderRight {
+    font-size: 5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerPages .divHeader .textHeaderRight {
+    font-size: 8rem;
+    padding: 3rem 2rem;
+    text-shadow: -4px 0px 2px rgba(0, 0, 0, 0.53);
+  }
 }
 .headerPages .divHeader .textSolidary {
   font-size: 2rem;
   text-align: center;
   font-weight: bold;
 }
+@media screen and (min-width: 670px) {
+  .headerPages .divHeader .textSolidary {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerPages .divHeader .textSolidary {
+    font-size: 5rem;
+    padding: 7rem 0rem;
+  }
+}
 .headerPages .divHeaderContact {
   text-align: center;
   padding-top: 8rem;
   padding-bottom: 6rem;
 }
+@media screen and (min-width: 670px) {
+  .headerPages .divHeaderContact {
+    padding: 20rem 0rem;
+  }
+}
 .headerPages .divHeaderContact .textContact {
   font-size: 3rem;
   text-decoration: underline;
   font-weight: bold;
+}
+@media screen and (min-width: 670px) {
+  .headerPages .divHeaderContact .textContact {
+    font-size: 5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .headerPages .divHeaderContact .textContact {
+    font-size: 7rem;
+    padding: 10rem 0rem;
+  }
 }
 
 .headerIndex .navLink, .headerPages .navLink {
@@ -341,49 +658,95 @@ html {
   text-align: center;
 }
 
-.footerPages .figureFooter, .footerPages .divFooter, .footerIndex .figureFooter, .footerIndex .divFooter, .headerIndex .gifContainer, .headerIndex .gifContainer .gifDiv {
+.footerPages .figureFooter, .footerPages .divFooter, .footerIndex .figureFooter, .footerIndex .divFooter, .sectionPages .contactContainer, .headerIndex .gifContainer, .headerIndex .gifContainer .gifDiv {
   display: flex;
   flex-flow: row nowrap;
 }
 
-.sectionPages .infoContainer .infoDiv, .sectionPages .infoContainer, .sectionPages .formContainer .formDiv, .sectionPages .formContainer, .sectionPages .toolsContainer .divTools, .sectionPages .toolsContainer, .sectionPages .worksContainer .worksDiv, .sectionPages .worksContainer {
+.sectionPages .infoContainer .infoDiv, .sectionPages .infoContainer, .sectionPages .contactContainer .formContainer .formDiv, .sectionPages .contactContainer .formContainer, .sectionPages .toolsContainer .divTools, .sectionPages .toolsContainer, .sectionPages .worksContainer .worksDiv, .sectionPages .worksContainer {
   display: flex;
   flex-flow: column nowrap;
 }
 
-.footerPages .figureFooter .circleGrey, .sectionIndex .circleBig {
+.sectionIndex .circleBig {
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
 }
+@media screen and (min-width: 670px) {
+  .sectionIndex .circleBig {
+    width: 18rem;
+    height: 18rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionIndex .circleBig {
+    width: 22rem;
+    height: 22rem;
+  }
+}
 
-.footerIndex .figureFooter .circleGreen, .sectionIndex .circleBig .circleSmall {
+.sectionIndex .circleBig .circleSmall {
   width: 11.5rem;
   height: 11.5rem;
   border-radius: 50%;
 }
+@media screen and (min-width: 670px) {
+  .sectionIndex .circleBig .circleSmall {
+    width: 17rem;
+    height: 17rem;
+    border: 0.4rem solid #576F72;
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionIndex .circleBig .circleSmall {
+    width: 21rem;
+    height: 21rem;
+    border: 0.5rem solid #576F72;
+    font-size: 3.5rem;
+    transition: all 0.6s ease;
+  }
+}
 
-.sectionPages .formContainer .formDiv .inputMessage, .sectionPages .formContainer .formDiv .inputContact {
+.footerPages .figureFooter .circleGrey, .footerIndex .figureFooter .circleGreen {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+@media screen and (min-width: 670px) {
+  .footerPages .figureFooter .circleGrey, .footerIndex .figureFooter .circleGreen {
+    width: 18rem;
+    height: 18rem;
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footerPages .figureFooter .circleGrey, .footerIndex .figureFooter .circleGreen {
+    width: 22rem;
+    height: 22rem;
+    font-size: 4rem;
+  }
+}
+
+.sectionPages .contactContainer .formContainer .formDiv .inputMessage, .sectionPages .contactContainer .formContainer .formDiv .inputContact {
   background-color: #E4DCCF;
   border: 1px solid #E4DCCF;
   color: #576F72;
   outline-style: none;
   width: 100%;
   border-radius: 1.5rem;
-  font-size: 1.5rem;
   font-weight: 100;
   transition: all 0.7s ease;
 }
 
-.sectionPages .formContainer .divButton .buttonSend {
+.sectionPages .contactContainer .formContainer .divButton .buttonSend {
   background-color: #576F72;
   border: 1px solid #576F72;
   color: #E4DCCF;
   outline-style: none;
   border-radius: 1.5rem;
-  width: 10rem;
-  font-size: 2rem;
-  height: 5rem;
   font-weight: 400;
   transition: all 0.3s ease;
 }
@@ -398,11 +761,31 @@ html {
   padding: 20rem 3rem 10rem 3rem;
   text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.54);
 }
+@media screen and (min-width: 670px) {
+  .sectionIndex h2 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionIndex h2 {
+    font-size: 4.6rem;
+  }
+}
 .sectionIndex h3 {
   font-size: 1.9rem;
   text-align: center;
   padding: 10rem 3rem 20rem 3rem;
   text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.54);
+}
+@media screen and (min-width: 670px) {
+  .sectionIndex h3 {
+    font-size: 2.6rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionIndex h3 {
+    font-size: 3.5rem;
+  }
 }
 .sectionIndex h4 {
   font-size: 1.9rem;
@@ -410,11 +793,31 @@ html {
   padding: 10rem 3rem 5rem 3rem;
   text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.54);
 }
+@media screen and (min-width: 670px) {
+  .sectionIndex h4 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionIndex h4 {
+    font-size: 4rem;
+  }
+}
 .sectionIndex h5 {
   font-size: 2.5rem;
   text-align: center;
   padding: 5rem 3rem 10rem 3rem;
   text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.54);
+}
+@media screen and (min-width: 670px) {
+  .sectionIndex h5 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionIndex h5 {
+    font-size: 4.6rem;
+  }
 }
 .sectionIndex .circleBig {
   background-color: #F0EBE3;
@@ -425,6 +828,16 @@ html {
   border: 0.3rem solid #576F72;
   font-size: 2rem;
   font-weight: bold;
+}
+@media screen and (min-width: 992px) {
+  .sectionIndex .circleBig .circleSmall {
+    transition: all 0.5s ease;
+  }
+  .sectionIndex .circleBig .circleSmall:hover {
+    background-color: #576F72;
+    color: #F0EBE3 !important;
+    transform: scale(0.93);
+  }
 }
 
 .roundEndGreen {
@@ -453,23 +866,88 @@ html {
   padding-top: 8rem;
   padding-bottom: 2rem;
 }
+@media screen and (min-width: 670px) {
+  .sectionPages h3 {
+    font-size: 3.5rem;
+    padding-bottom: 4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages h3 {
+    font-size: 4.5rem;
+    padding: 10rem 0rem;
+  }
+}
 .sectionPages h4 {
   font-size: 2.5rem;
   text-align: center;
   padding: 2rem;
   text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
 }
+@media screen and (min-width: 670px) {
+  .sectionPages h4 {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages h4 {
+    font-size: 5rem;
+    padding: 10rem 0rem;
+  }
+}
 .sectionPages .worksContainer .worksDiv {
-  text-align: center;
+  align-items: center;
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .worksContainer .worksDiv {
+    flex-flow: row nowrap !important;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    transition: all 0.6s ease;
+    filter: grayscale(1);
+  }
+  .sectionPages .worksContainer .worksDiv:hover {
+    transform: scale(1.2);
+    filter: none;
+  }
 }
 .sectionPages .worksContainer .worksDiv .worksLink {
   font-size: 3rem;
   padding-top: 5rem;
   padding-bottom: 3rem;
 }
+@media screen and (min-width: 670px) {
+  .sectionPages .worksContainer .worksDiv .worksLink {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .worksContainer .worksDiv .worksLink {
+    font-size: 5rem;
+  }
+}
 .sectionPages .worksContainer .worksDiv .worksImage {
   width: 15rem;
   padding-bottom: 8rem;
+}
+@media screen and (min-width: 670px) {
+  .sectionPages .worksContainer .worksDiv .worksImage {
+    width: 20rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .worksContainer .worksDiv .worksImage {
+    width: 25rem;
+    padding-top: 7rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .toolsContainer {
+    flex-flow: row wrap !important;
+    justify-content: space-around;
+    padding: 4rem 2rem 6rem 2rem;
+  }
 }
 .sectionPages .toolsContainer .divTools {
   text-align: center;
@@ -477,72 +955,240 @@ html {
   padding-top: 2rem;
   padding-bottom: 5rem;
 }
+@media screen and (min-width: 670px) {
+  .sectionPages .toolsContainer .divTools {
+    padding-bottom: 8rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .toolsContainer .divTools {
+    filter: grayscale(1);
+    transition: all 0.8s ease;
+  }
+  .sectionPages .toolsContainer .divTools:hover {
+    transform: scale(1.3);
+    filter: none;
+  }
+}
 .sectionPages .toolsContainer .divTools .toolsImage {
   width: 15rem;
+}
+@media screen and (min-width: 670px) {
+  .sectionPages .toolsContainer .divTools .toolsImage {
+    width: 18rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .toolsContainer .divTools .toolsImage {
+    width: 20rem;
+  }
 }
 .sectionPages .toolsContainer .divTools .toolsText {
   font-size: 2.1rem;
   padding-top: 1rem;
   font-weight: bold;
 }
+@media screen and (min-width: 670px) {
+  .sectionPages .toolsContainer .divTools .toolsText {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .toolsContainer .divTools .toolsText {
+    font-size: 3.1rem;
+    padding-top: 2rem;
+  }
+}
 .sectionPages .map {
   padding-bottom: 5rem;
 }
-.sectionPages .formContainer {
+@media screen and (min-width: 670px) {
+  .sectionPages .map {
+    padding-bottom: 10rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .map {
+    padding-bottom: 12rem;
+    filter: grayscale(1);
+    transition: all 0.8s ease;
+  }
+  .sectionPages .map:hover {
+    filter: none;
+  }
+}
+.sectionPages .contactContainer .formContainer {
   padding: 0rem 2rem 6rem 2rem;
 }
-.sectionPages .formContainer .formDiv {
+@media screen and (min-width: 670px) {
+  .sectionPages .contactContainer .formContainer {
+    padding: 5rem 2rem 15rem 2rem;
+  }
+}
+@media screen and (min-width: 1812px) {
+  .sectionPages .contactContainer .formContainer {
+    width: 54%;
+  }
+}
+.sectionPages .contactContainer .formContainer .formDiv {
   padding: 3rem 0rem;
 }
-.sectionPages .formContainer .formDiv .labelContact {
+@media screen and (min-width: 670px) {
+  .sectionPages .contactContainer .formContainer .formDiv {
+    padding: 7rem 0rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .contactContainer .formContainer .formDiv {
+    padding: 6rem 2rem;
+  }
+}
+.sectionPages .contactContainer .formContainer .formDiv .labelContact {
   font-size: 2rem;
   font-weight: 500;
   padding-bottom: 2rem;
 }
-.sectionPages .formContainer .formDiv .inputContact {
+@media screen and (min-width: 670px) {
+  .sectionPages .contactContainer .formContainer .formDiv .labelContact {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .contactContainer .formContainer .formDiv .labelContact {
+    font-size: 5rem;
+  }
+}
+.sectionPages .contactContainer .formContainer .formDiv .inputContact {
   height: 5rem;
   padding-left: 1rem;
   font-size: 1.5rem;
   font-weight: 100;
 }
-.sectionPages .formContainer .formDiv .inputContact:focus {
+.sectionPages .contactContainer .formContainer .formDiv .inputContact:focus {
   background-color: #576F72;
   color: #F0EBE3;
 }
-.sectionPages .formContainer .formDiv .inputContact:focus::placeholder {
+.sectionPages .contactContainer .formContainer .formDiv .inputContact:focus::placeholder {
   color: #E4DCCF;
 }
-.sectionPages .formContainer .formDiv .inputMessage {
+@media screen and (min-width: 670px) {
+  .sectionPages .contactContainer .formContainer .formDiv .inputContact {
+    height: 10rem;
+    font-size: 2.5rem;
+    padding-left: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .contactContainer .formContainer .formDiv .inputContact {
+    font-size: 3rem;
+    padding-left: 3rem;
+  }
+}
+.sectionPages .contactContainer .formContainer .formDiv .inputMessage {
   height: 15rem;
   padding-left: 1rem;
   padding-top: 1rem;
+  font-size: 1.5rem;
   resize: none;
 }
-.sectionPages .formContainer .formDiv .inputMessage:focus {
+.sectionPages .contactContainer .formContainer .formDiv .inputMessage:focus {
   background-color: #576F72;
   color: #F0EBE3;
 }
-.sectionPages .formContainer .formDiv .inputMessage:focus::placeholder {
+.sectionPages .contactContainer .formContainer .formDiv .inputMessage:focus::placeholder {
   color: #E4DCCF;
 }
-.sectionPages .formContainer .divButton {
+@media screen and (min-width: 670px) {
+  .sectionPages .contactContainer .formContainer .formDiv .inputMessage {
+    height: 25rem;
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .contactContainer .formContainer .formDiv .inputMessage {
+    height: 30rem;
+    font-size: 3rem;
+  }
+}
+.sectionPages .contactContainer .formContainer .divButton {
   text-align: end;
   filter: drop-shadow(0px 4px 1px rgba(0, 0, 0, 0.54));
 }
-.sectionPages .gifCode {
+.sectionPages .contactContainer .formContainer .divButton .buttonSend {
+  font-size: 2rem;
+  width: 10rem;
+  height: 5rem;
+}
+@media screen and (min-width: 670px) {
+  .sectionPages .contactContainer .formContainer .divButton .buttonSend {
+    font-size: 4rem;
+    width: 20rem;
+    height: 8rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .contactContainer .formContainer .divButton .buttonSend {
+    font-size: 4.7rem;
+    width: 23rem;
+    height: 9rem;
+    transition: all 0.4s ease;
+  }
+  .sectionPages .contactContainer .formContainer .divButton .buttonSend:hover {
+    background-color: #F0EBE3;
+    color: #576F72;
+    transform: scale(0.93);
+  }
+}
+.sectionPages .contactContainer .divCode {
   display: none;
+}
+@media screen and (min-width: 1812px) {
+  .sectionPages .contactContainer .divCode {
+    display: flex;
+    width: 45%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1812px) {
+  .sectionPages .contactContainer .divCode .gifCode {
+    width: 100%;
+    filter: grayscale(0.6);
+    mix-blend-mode: darken;
+  }
 }
 .sectionPages .infoContainer {
   align-items: center;
   text-align: center;
   padding-bottom: 10rem;
 }
+@media screen and (min-width: 992px) {
+  .sectionPages .infoContainer {
+    flex-flow: row wrap !important;
+    justify-content: space-around;
+  }
+}
 .sectionPages .infoContainer .infoDiv {
   padding: 5rem 1rem;
+}
+@media screen and (min-width: 670px) {
+  .sectionPages .infoContainer .infoDiv {
+    padding: 10rem 1rem;
+  }
 }
 .sectionPages .infoContainer .infoDiv .infoText {
   font-size: 3rem;
   font-weight: bold;
+}
+@media screen and (min-width: 670px) {
+  .sectionPages .infoContainer .infoDiv .infoText {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .infoContainer .infoDiv .infoText {
+    font-size: 5rem;
+  }
 }
 .sectionPages .infoContainer .infoDiv .infoLink {
   background-color: #E4DCCF;
@@ -551,6 +1197,26 @@ html {
   height: 8rem;
   font-size: 2rem;
   font-weight: normal;
+}
+@media screen and (min-width: 670px) {
+  .sectionPages .infoContainer .infoDiv .infoLink {
+    font-size: 3.5rem;
+    height: 15rem;
+    width: 60rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionPages .infoContainer .infoDiv .infoLink {
+    font-size: 3rem;
+    height: 12rem;
+    width: 50rem;
+    transition: all 0.4s ease;
+  }
+  .sectionPages .infoContainer .infoDiv .infoLink:hover {
+    transform: scale(0.9);
+    background-color: #576F72;
+    color: #F0EBE3 !important;
+  }
 }
 
 .roundEndGrey {
@@ -604,49 +1270,95 @@ html {
   text-align: center;
 }
 
-.footerPages .figureFooter, .footerPages .divFooter, .footerIndex .figureFooter, .footerIndex .divFooter, .headerIndex .gifContainer, .headerIndex .gifContainer .gifDiv {
+.footerPages .figureFooter, .footerPages .divFooter, .footerIndex .figureFooter, .footerIndex .divFooter, .headerIndex .gifContainer, .headerIndex .gifContainer .gifDiv, .sectionPages .contactContainer {
   display: flex;
   flex-flow: row nowrap;
 }
 
-.sectionPages .worksContainer, .sectionPages .worksContainer .worksDiv, .sectionPages .toolsContainer, .sectionPages .toolsContainer .divTools, .sectionPages .formContainer, .sectionPages .formContainer .formDiv, .sectionPages .infoContainer, .sectionPages .infoContainer .infoDiv {
+.sectionPages .worksContainer, .sectionPages .worksContainer .worksDiv, .sectionPages .toolsContainer, .sectionPages .toolsContainer .divTools, .sectionPages .contactContainer .formContainer, .sectionPages .contactContainer .formContainer .formDiv, .sectionPages .infoContainer, .sectionPages .infoContainer .infoDiv {
   display: flex;
   flex-flow: column nowrap;
 }
 
-.footerPages .figureFooter .circleGrey, .sectionIndex .circleBig {
+.sectionIndex .circleBig {
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
 }
+@media screen and (min-width: 670px) {
+  .sectionIndex .circleBig {
+    width: 18rem;
+    height: 18rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionIndex .circleBig {
+    width: 22rem;
+    height: 22rem;
+  }
+}
 
-.footerIndex .figureFooter .circleGreen, .sectionIndex .circleBig .circleSmall {
+.sectionIndex .circleBig .circleSmall {
   width: 11.5rem;
   height: 11.5rem;
   border-radius: 50%;
 }
+@media screen and (min-width: 670px) {
+  .sectionIndex .circleBig .circleSmall {
+    width: 17rem;
+    height: 17rem;
+    border: 0.4rem solid #576F72;
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sectionIndex .circleBig .circleSmall {
+    width: 21rem;
+    height: 21rem;
+    border: 0.5rem solid #576F72;
+    font-size: 3.5rem;
+    transition: all 0.6s ease;
+  }
+}
 
-.sectionPages .formContainer .formDiv .inputContact, .sectionPages .formContainer .formDiv .inputMessage {
+.footerPages .figureFooter .circleGrey, .footerIndex .figureFooter .circleGreen {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+@media screen and (min-width: 670px) {
+  .footerPages .figureFooter .circleGrey, .footerIndex .figureFooter .circleGreen {
+    width: 18rem;
+    height: 18rem;
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footerPages .figureFooter .circleGrey, .footerIndex .figureFooter .circleGreen {
+    width: 22rem;
+    height: 22rem;
+    font-size: 4rem;
+  }
+}
+
+.sectionPages .contactContainer .formContainer .formDiv .inputContact, .sectionPages .contactContainer .formContainer .formDiv .inputMessage {
   background-color: #E4DCCF;
   border: 1px solid #E4DCCF;
   color: #576F72;
   outline-style: none;
   width: 100%;
   border-radius: 1.5rem;
-  font-size: 1.5rem;
   font-weight: 100;
   transition: all 0.7s ease;
 }
 
-.sectionPages .formContainer .divButton .buttonSend {
+.sectionPages .contactContainer .formContainer .divButton .buttonSend {
   background-color: #576F72;
   border: 1px solid #576F72;
   color: #E4DCCF;
   outline-style: none;
   border-radius: 1.5rem;
-  width: 10rem;
-  font-size: 2rem;
-  height: 5rem;
   font-weight: 400;
   transition: all 0.3s ease;
 }
@@ -662,19 +1374,51 @@ html {
 }
 .footerIndex .divFooter .photoFooter {
   max-width: 12rem;
-  transition: all 0.5s ease;
+  transition: all 0.6s ease;
 }
 .footerIndex .divFooter .photoFooter:hover {
-  transform: scale(1.5);
+  transform: scale(1.6);
+}
+@media screen and (min-width: 670px) {
+  .footerIndex .divFooter .photoFooter {
+    max-width: 18rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footerIndex .divFooter .photoFooter {
+    max-width: 22rem;
+  }
 }
 .footerIndex .divFooter .nameFooter {
   margin-left: 2rem;
   font-size: 2rem;
   font-weight: bold;
 }
+@media screen and (min-width: 670px) {
+  .footerIndex .divFooter .nameFooter {
+    margin-left: 3rem;
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footerIndex .divFooter .nameFooter {
+    font-size: 4rem;
+  }
+}
 .footerIndex .divFooter .jobFooter {
   margin-left: 1rem;
   font-size: 1.8rem;
+}
+@media screen and (min-width: 670px) {
+  .footerIndex .divFooter .jobFooter {
+    margin-left: 2rem;
+    font-size: 2.3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footerIndex .divFooter .jobFooter {
+    font-size: 2.8rem;
+  }
 }
 .footerIndex .figureFooter {
   padding: 1rem 0rem;
@@ -689,11 +1433,17 @@ html {
   border: none;
 }
 .footerIndex .figureFooter .circleGreen {
-  background-color: #F0EBE3;
-  color: #576F72;
   border: 0.3rem solid #576F72;
-  font-size: 2rem;
-  font-weight: bold;
+}
+@media screen and (min-width: 992px) {
+  .footerIndex .figureFooter .circleGreen {
+    transition: all 0.5s ease;
+  }
+  .footerIndex .figureFooter .circleGreen:hover {
+    transform: scale(1.1);
+    background-color: #576F72;
+    color: #F0EBE3;
+  }
 }
 .footerIndex .divBottom {
   display: flex;
@@ -701,7 +1451,20 @@ html {
   background-color: #F0EBE3;
   color: #576F72;
   font-size: 1.6rem;
-  padding: 3rem 1rem 2rem 1rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+@media screen and (min-width: 670px) {
+  .footerIndex .divBottom {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footerIndex .divBottom {
+    font-size: 3rem;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+  }
 }
 .footerPages {
   background-color: #576F72;
@@ -714,19 +1477,51 @@ html {
 }
 .footerPages .divFooter .photoFooter {
   max-width: 12rem;
-  transition: all 0.5s ease;
+  transition: all 0.6s ease;
 }
 .footerPages .divFooter .photoFooter:hover {
-  transform: scale(1.5);
+  transform: scale(1.6);
+}
+@media screen and (min-width: 670px) {
+  .footerPages .divFooter .photoFooter {
+    max-width: 18rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footerPages .divFooter .photoFooter {
+    max-width: 22rem;
+  }
 }
 .footerPages .divFooter .nameFooter {
   margin-left: 2rem;
   font-size: 2rem;
   font-weight: bold;
 }
+@media screen and (min-width: 670px) {
+  .footerPages .divFooter .nameFooter {
+    margin-left: 3rem;
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footerPages .divFooter .nameFooter {
+    font-size: 4rem;
+  }
+}
 .footerPages .divFooter .jobFooter {
   margin-left: 1rem;
   font-size: 1.8rem;
+}
+@media screen and (min-width: 670px) {
+  .footerPages .divFooter .jobFooter {
+    margin-left: 2rem;
+    font-size: 2.3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footerPages .divFooter .jobFooter {
+    font-size: 2.8rem;
+  }
 }
 .footerPages .figureFooter {
   padding: 1rem 0rem;
@@ -735,17 +1530,23 @@ html {
 .footerPages .figureFooter .lineGrey {
   background: #F0EBE3;
   height: 0.3rem;
-  width: 80%;
+  width: 90%;
   border-radius: 1rem;
   opacity: 100%;
   border: none;
 }
 .footerPages .figureFooter .circleGrey {
   border: 0.3rem solid #F0EBE3;
-  background-color: #576F72;
-  color: #F0EBE3;
-  font-size: 2rem;
-  font-weight: bold;
+}
+@media screen and (min-width: 992px) {
+  .footerPages .figureFooter .circleGrey {
+    transition: all 0.5s ease;
+  }
+  .footerPages .figureFooter .circleGrey:hover {
+    transform: scale(1.1);
+    background-color: #F0EBE3;
+    color: #576F72;
+  }
 }
 .footerPages .divBottom {
   display: flex;
@@ -754,6 +1555,16 @@ html {
   color: #F0EBE3;
   font-size: 1.6rem;
   padding: 3rem 1rem 2rem 1rem;
+}
+@media screen and (min-width: 670px) {
+  .footerPages .divBottom {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footerPages .divBottom {
+    font-size: 3rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,6 @@
+@import '../base/list';
+@import '../base/mixin';
+
 // Links
 %navLink {
     text-align: end;
@@ -55,12 +58,56 @@
     width: 12rem;
     height: 12rem;
     border-radius: 50%;
+
+    @include responsive(md) {
+        width: 18rem;
+        height: 18rem;
+    }
+
+    @include responsive(lg) {
+        width: 22rem;
+        height: 22rem;
+    }
 }
 
 %circleSmall {
     width: 11.5rem;
     height: 11.5rem;
     border-radius: 50%;
+
+    @include responsive(md) {
+        width: 17rem;
+        height: 17rem;
+        border: 0.4rem solid nth($color,1);
+        font-size: 4rem;
+    }
+
+    @include responsive(lg) {
+        width: 21rem;
+        height: 21rem;
+        border: 0.5rem solid nth($color,1);
+        font-size: 3.5rem;
+        transition: all 0.6s ease;
+    }
+}
+
+%circleFooter {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    font-size: 2rem;
+
+    @include responsive(md) {
+        width: 18rem;
+        height: 18rem;
+        font-size: 3rem;
+    }
+
+    @include responsive(lg) {
+        width: 22rem;
+        height: 22rem;
+        font-size: 4rem;
+    }
 }
 
 // Inputs
@@ -71,7 +118,6 @@
     outline-style: none;
     width: 100%;
     border-radius: 1.5rem;
-    font-size: 1.5rem;
     font-weight: 100;
     transition: all 0.7s ease;
 }
@@ -82,9 +128,6 @@
     color: nth($color,3);
     outline-style: none;
     border-radius: 1.5rem;
-    width: 10rem;
-    font-size: 2rem;
-    height: 5rem;
     font-weight: 400;
     transition: all 0.3s ease;
 }

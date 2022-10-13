@@ -1,5 +1,6 @@
 @import '../base/list';
 @import '../base/extend';
+@import '../base/mixin';
 
 // INDEX
 .footerIndex {
@@ -14,10 +15,18 @@
 
         .photoFooter {
             max-width: 12rem;
-            transition: all 0.5s ease;
+            transition: all 0.6s ease;
 
             &:hover {
-                transform: scale(1.5);
+                transform: scale(1.6);
+            }
+
+            @include responsive(md) {
+                max-width: 18rem;
+            }
+    
+            @include responsive(lg) {
+                max-width: 22rem;
             }
         }
 
@@ -25,11 +34,29 @@
             margin-left: 2rem;
             font-size: 2rem;
             font-weight: bold;
+
+            @include responsive(md) {
+                margin-left: 3rem;
+                font-size: 3rem;
+            }
+                
+            @include responsive(lg) {
+                font-size: 4rem;
+            }
         }
         
         .jobFooter {
             margin-left: 1rem;
             font-size: 1.8rem;
+
+            @include responsive(md) {
+                margin-left: 2rem;
+                font-size: 2.3rem;
+            }
+                
+            @include responsive(lg) {
+                font-size: 2.8rem;
+            }
         }
     }
 
@@ -51,12 +78,18 @@
         .circleGreen {
             @extend %flexCenter;
             @extend %linkGreen;
-            @extend %circleSmall;
-            background-color: nth($color,2);
-            color: nth($color,1);
+            @extend %circleFooter;
             border: 0.3rem solid nth($color,1);
-            font-size: 2rem;
-            font-weight: bold;
+
+            @include responsive(lg) {
+                transition: all 0.5s ease;
+
+                &:hover {
+                    transform: scale(1.1);
+                    background-color: nth($color,1);
+                    color: nth($color,2);
+                }
+            }
         }
     }
 
@@ -66,7 +99,18 @@
         background-color: nth($color,2);
         color: nth($color,1);
         font-size: 1.6rem;
-        padding: 3rem 1rem 2rem 1rem;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+
+        @include responsive(md) {
+            font-size: 2.4rem;
+        }
+
+        @include responsive(lg) {
+            font-size: 3rem;
+            padding-top: 6rem;
+            padding-bottom: 4rem;
+        }
 
         .linkUp {
             @extend %linkGreen;
@@ -88,10 +132,18 @@
 
         .photoFooter {
             max-width: 12rem;
-            transition: all 0.5s ease;
+            transition: all 0.6s ease;
 
             &:hover {
-                transform: scale(1.5);
+                transform: scale(1.6);
+            }
+
+            @include responsive(md) {
+                max-width: 18rem;
+            }
+    
+            @include responsive(lg) {
+                max-width: 22rem;
             }
         }
 
@@ -99,11 +151,29 @@
             margin-left: 2rem;
             font-size: 2rem;
             font-weight: bold;
+
+            @include responsive(md) {
+                margin-left: 3rem;
+                font-size: 3rem;
+            }
+                
+            @include responsive(lg) {
+                font-size: 4rem;
+            }
         }
         
         .jobFooter {
             margin-left: 1rem;
             font-size: 1.8rem;
+
+            @include responsive(md) {
+                margin-left: 2rem;
+                font-size: 2.3rem;
+            }
+                
+            @include responsive(lg) {
+                font-size: 2.8rem;
+            }
         }
     }
 
@@ -116,7 +186,7 @@
         .lineGrey {
             background: nth($color,2);
             height: 0.3rem;
-            width: 80%;
+            width: 90%;
             border-radius: 1rem;
             opacity: 100%;
             border: none;
@@ -125,12 +195,18 @@
         .circleGrey {
             @extend %flexCenter;
             @extend %linkGrey;
-            @extend %circleBig;
+            @extend %circleFooter;
             border: 0.3rem solid nth($color,2);
-            background-color: nth($color,1);
-            color: nth($color,2);
-            font-size: 2rem;
-            font-weight: bold;
+
+            @include responsive(lg) {
+                transition: all 0.5s ease;
+
+                &:hover {
+                    transform: scale(1.1);
+                    background-color: nth($color,2);
+                    color: nth($color,1);
+                }
+            }
         }
     }
 
@@ -141,6 +217,14 @@
         color: nth($color,2);
         font-size: 1.6rem;
         padding: 3rem 1rem 2rem 1rem;
+
+        @include responsive(md) {
+            font-size: 2.4rem;
+        }
+
+        @include responsive(lg) {
+            font-size: 3rem;
+        }
 
         .linkUp {
             @extend %linkGrey;
