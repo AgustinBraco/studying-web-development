@@ -351,14 +351,9 @@ html {
 .headerIndex .divIndex {
   padding: 5rem 0rem;
 }
-@media screen and (min-width: 670px) {
-  .headerIndex .divIndex {
-    padding: 4rem 0rem;
-  }
-}
 @media screen and (min-width: 992px) {
   .headerIndex .divIndex {
-    padding: 0rem;
+    padding: 2rem;
   }
 }
 .headerIndex .divIndex .gifWorld {
@@ -437,7 +432,7 @@ html {
 }
 .headerIndex .gifContainer {
   justify-content: space-between;
-  padding: 10rem 0rem;
+  padding: 2rem 0rem;
 }
 .headerIndex .gifContainer .gifDiv {
   align-items: center;
@@ -451,7 +446,6 @@ html {
 }
 @media screen and (min-width: 992px) {
   .headerIndex .gifContainer .gifDiv {
-    padding-top: 2rem;
     font-size: 2.8rem;
   }
 }
@@ -787,28 +781,31 @@ html {
 .sectionIndex h3 {
   font-size: 1.9rem;
   text-align: center;
-  padding: 10rem 3rem 20rem 3rem;
+  padding: 20rem 3rem 10rem 3rem;
   text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.54);
 }
 @media screen and (min-width: 670px) {
   .sectionIndex h3 {
     font-size: 2.6rem;
+    padding: 20rem 3rem 10rem 3rem;
   }
 }
 @media screen and (min-width: 992px) {
   .sectionIndex h3 {
     font-size: 3.5rem;
+    padding: 25rem 3rem 15rem 3rem;
   }
 }
 .sectionIndex h4 {
   font-size: 1.9rem;
   text-align: center;
-  padding: 10rem 3rem 5rem 3rem;
+  padding: 15rem 3rem 10rem 3rem;
   text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.54);
 }
 @media screen and (min-width: 670px) {
   .sectionIndex h4 {
     font-size: 2.5rem;
+    padding-bottom: 10rem;
   }
 }
 @media screen and (min-width: 992px) {
@@ -1014,21 +1011,28 @@ html {
 }
 .sectionPages .map {
   padding-bottom: 5rem;
+  width: 100%;
+  height: 60rem;
 }
 @media screen and (min-width: 670px) {
   .sectionPages .map {
     padding-bottom: 10rem;
+    height: 80rem;
   }
 }
 @media screen and (min-width: 992px) {
   .sectionPages .map {
     padding-bottom: 12rem;
+    height: 100rem;
     filter: grayscale(1);
     transition: all 0.8s ease;
   }
   .sectionPages .map:hover {
     filter: none;
   }
+}
+.sectionPages h1 {
+  display: none;
 }
 .sectionPages .contactContainer .formContainer {
   padding: 0rem 2rem 6rem 2rem;

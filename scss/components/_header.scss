@@ -84,12 +84,8 @@
         @extend %flexCenter;
         padding: 5rem 0rem;
 
-        @include responsive(md) {
-            padding: 4rem 0rem;
-        }
-
         @include responsive(lg) {
-            padding: 0rem;
+            padding: 2rem;
         }
 
         .gifWorld {
@@ -166,7 +162,7 @@
     .gifContainer {
         @extend %flexRow;
         justify-content: space-between;
-        padding: 10rem 0rem;
+        padding: 2rem 0rem;
 
         .gifDiv {
             @extend %flexRow;
@@ -179,7 +175,6 @@
             }
 
             @include responsive(lg) {
-                padding-top: 2rem;
                 font-size: 2.8rem;
             }
 
